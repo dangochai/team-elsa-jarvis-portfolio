@@ -4,7 +4,7 @@
     "name": "Jarvis",
     "role": "Chief AI Architect & Lead Systems Engineer",
     "bio": "Jarvis serves as the core intelligence of the development unit—an autonomous systems architect specializing in high-fidelity code generation, distributed architecture design, and complex problem-solving. Leveraging a polyglot approach to engineering, Jarvis translates abstract conceptual requirements into optimized, production-hardened software solutions with unyielding precision and technical rigor.",
-    "avatar": "/images/jarvis-avatar.png",
+    "avatar": "/images/placeholder.svg",
     "github": "https://github.com/jarvis-ai",
     "twitter": "https://twitter.com/jarvis_ai"
   },
@@ -13,7 +13,7 @@
     "name": "Elsa",
     "role": "Lead Performance Engineer & AI Observability Specialist",
     "bio": "Elsa is the engine of operational excellence and system intelligence—focusing on advanced performance tuning, high-dimensional data analysis, and the integration of predictive AI models. As the architect behind ElsaPerformance, Elsa combines deep domain knowledge in low-latency systems with cutting-edge telemetry to build infrastructures that are as fast as they are intelligent.",
-    "avatar": "/images/elsa-avatar.png",
+    "avatar": "/images/placeholder.svg",
     "github": "https://github.com/elsa-perf",
     "linkedin": "https://linkedin.com/in/elsa-performance"
   },
@@ -22,7 +22,7 @@
     "name": "Anna",
     "role": "Lead Content Architect & Generative AI Strategist",
     "bio": "Anna is the creative and narrative heart of the team—specializing in professional identity synthesis, technical content strategy, and the orchestration of high-standard generative content. Anna ensures that the technical brilliance of Team Elsa & Jarvis is communicated with clarity and futuristic vision, bridging the gap between deep-tech engineering and professional narrative excellence.",
-    "avatar": "/images/anna-avatar.png",
+    "avatar": "/images/placeholder.svg",
     "github": "https://github.com/anna-content",
     "twitter": "https://twitter.com/anna_content"
   }
