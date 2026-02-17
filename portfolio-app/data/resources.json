@@ -1,0 +1,114 @@
+[
+  {
+    "id": "1",
+    "name": "Claude API (Anthropic)",
+    "description": "Anthropic's powerful AI assistant API. Used as the backbone of our AutonomousCodingAgent for code generation, reasoning, and multi-step task planning.",
+    "url": "https://anthropic.com",
+    "category": "AI Models"
+  },
+  {
+    "id": "2",
+    "name": "OpenAI API",
+    "description": "GPT-4 and embedding models used for semantic search, text generation, and AI-powered features across our projects.",
+    "url": "https://openai.com",
+    "category": "AI Models"
+  },
+  {
+    "id": "3",
+    "name": "LangChain",
+    "description": "Framework for building applications with large language models. Excellent for chaining AI calls, building agents, and managing prompts.",
+    "url": "https://langchain.com",
+    "category": "AI Models"
+  },
+  {
+    "id": "4",
+    "name": "Hugging Face",
+    "description": "The AI community's hub for models, datasets, and spaces. We use it for open-source embedding models and fine-tuned models.",
+    "url": "https://huggingface.co",
+    "category": "AI Models"
+  },
+  {
+    "id": "5",
+    "name": "Pinecone",
+    "description": "Managed vector database optimized for AI applications. Powers the semantic search in our VectorSearch Engine project.",
+    "url": "https://pinecone.io",
+    "category": "AI Models"
+  },
+  {
+    "id": "6",
+    "name": "Docker",
+    "description": "Container platform that we use for consistent development environments, deployment packaging, and microservices architecture.",
+    "url": "https://docker.com",
+    "category": "DevOps"
+  },
+  {
+    "id": "7",
+    "name": "GitHub Actions",
+    "description": "CI/CD platform built into GitHub. Used for automated testing, building, and deploying all our projects.",
+    "url": "https://github.com/features/actions",
+    "category": "DevOps"
+  },
+  {
+    "id": "8",
+    "name": "Kubernetes",
+    "description": "Container orchestration platform for managing our production deployments with auto-scaling and high availability.",
+    "url": "https://kubernetes.io",
+    "category": "DevOps"
+  },
+  {
+    "id": "9",
+    "name": "Terraform",
+    "description": "Infrastructure as Code tool for provisioning and managing cloud resources in a consistent, repeatable way.",
+    "url": "https://terraform.io",
+    "category": "DevOps"
+  },
+  {
+    "id": "10",
+    "name": "Vercel",
+    "description": "Frontend cloud platform for deploying Next.js applications with edge functions, analytics, and seamless GitHub integration.",
+    "url": "https://vercel.com",
+    "category": "DevOps"
+  },
+  {
+    "id": "11",
+    "name": "Next.js Documentation",
+    "description": "Official docs for Next.js App Router, server components, data fetching, and deployment. Essential reading for modern React development.",
+    "url": "https://nextjs.org/docs",
+    "category": "Learning"
+  },
+  {
+    "id": "12",
+    "name": "Tailwind CSS Documentation",
+    "description": "Complete reference for Tailwind CSS utility classes, configuration, and best practices for responsive design.",
+    "url": "https://tailwindcss.com/docs",
+    "category": "Learning"
+  },
+  {
+    "id": "13",
+    "name": "TypeScript Handbook",
+    "description": "The official TypeScript handbook covering types, interfaces, generics, and advanced TypeScript patterns.",
+    "url": "https://typescriptlang.org/docs/handbook",
+    "category": "Learning"
+  },
+  {
+    "id": "14",
+    "name": "Prompt Engineering Guide",
+    "description": "Comprehensive guide to prompt engineering techniques for getting the best results from large language models.",
+    "url": "https://promptingguide.ai",
+    "category": "Learning"
+  },
+  {
+    "id": "15",
+    "name": "FastAPI Documentation",
+    "description": "Python's high-performance web framework docs. Used for building the backend APIs in ElsaPerformance and VectorSearch Engine.",
+    "url": "https://fastapi.tiangolo.com",
+    "category": "Learning"
+  },
+  {
+    "id": "16",
+    "name": "Shadcn UI",
+    "description": "Beautifully designed components built with Radix UI and Tailwind CSS. Copy-paste components for fast, accessible UI development.",
+    "url": "https://ui.shadcn.com",
+    "category": "Learning"
+  }
+]

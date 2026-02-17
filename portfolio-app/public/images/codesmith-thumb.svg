@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#059669;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0891b2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#grad)"/>
+  <rect x="100" y="80" width="600" height="240" rx="8" fill="rgba(0,0,0,0.3)"/>
+  <text x="130" y="118" font-family="monospace" font-size="16" fill="#22d3ee">$ codesmith</text>
+  <text x="130" y="150" font-family="monospace" font-size="14" fill="rgba(255,255,255,0.8)">  init my-project --template next-ts</text>
+  <text x="130" y="182" font-family="monospace" font-size="14" fill="#86efac">✓ Created project structure</text>
+  <text x="130" y="214" font-family="monospace" font-size="14" fill="#86efac">✓ Installed dependencies</text>
+  <text x="130" y="246" font-family="monospace" font-size="14" fill="#86efac">✓ Configured TypeScript</text>
+  <text x="130" y="278" font-family="monospace" font-size="14" fill="rgba(255,255,255,0.6)">Ready in 2.4s</text>
+  <text x="400" y="390" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" fill="white" text-anchor="middle">CodeSmith CLI</text>
+  <text x="400" y="420" font-family="system-ui, sans-serif" font-size="14" fill="rgba(255,255,255,0.7)" text-anchor="middle">AI-Powered Code Generation Tool</text>
+</svg>

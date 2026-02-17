@@ -1,0 +1,3139 @@
+[
+  {
+    "category": "functional",
+    "description": "Navigation bar renders on every page with logo text 'Team Elsa & Jarvis'",
+    "steps": [
+      "Step 1: Navigate to the home page '/'",
+      "Step 2: Locate the navigation bar element",
+      "Step 3: Verify the logo text reads 'Team Elsa & Jarvis'",
+      "Step 4: Navigate to '/portfolio'",
+      "Step 5: Verify the navigation bar is still present with the same logo text"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Navigation bar contains links: Home, Portfolio, Resources",
+    "steps": [
+      "Step 1: Navigate to the home page '/'",
+      "Step 2: Locate the navigation bar",
+      "Step 3: Verify a 'Home' link is present",
+      "Step 4: Verify a 'Portfolio' link is present",
+      "Step 5: Verify a 'Resources' link is present"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Navigation 'Home' link navigates to '/'",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Click the 'Home' link in the navbar",
+      "Step 3: Verify the URL is now '/'",
+      "Step 4: Verify the home page content is displayed"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Navigation 'Portfolio' link navigates to '/portfolio'",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Click the 'Portfolio' link in the navbar",
+      "Step 3: Verify the URL is now '/portfolio'",
+      "Step 4: Verify the portfolio page content is displayed"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Navigation 'Resources' link navigates to '/resources'",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Click the 'Resources' link in the navbar",
+      "Step 3: Verify the URL is now '/resources'",
+      "Step 4: Verify the resources page content is displayed"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Theme toggle button exists in navbar and switches between light and dark mode",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Locate the theme toggle button in the navbar",
+      "Step 3: Note the current theme (light or dark)",
+      "Step 4: Click the theme toggle button",
+      "Step 5: Verify the theme changes to the opposite mode",
+      "Step 6: Verify the icon changes (sun to moon or moon to sun)",
+      "Step 7: Click the theme toggle again",
+      "Step 8: Verify the theme returns to the original mode"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Theme persists across page navigation",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Toggle theme to dark mode",
+      "Step 3: Navigate to '/portfolio'",
+      "Step 4: Verify dark mode is still active",
+      "Step 5: Navigate to '/resources'",
+      "Step 6: Verify dark mode is still active",
+      "Step 7: Refresh the page",
+      "Step 8: Verify dark mode is still active after refresh"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Footer renders on every page with copyright info",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Scroll to the bottom of the page",
+      "Step 3: Locate the footer element",
+      "Step 4: Verify copyright text is present",
+      "Step 5: Navigate to '/portfolio'",
+      "Step 6: Scroll to the bottom",
+      "Step 7: Verify the footer is present with the same copyright text"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Footer contains GitHub social link",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Scroll to the footer",
+      "Step 3: Verify a GitHub icon/link is present in the footer",
+      "Step 4: Verify the GitHub link has a valid href attribute pointing to GitHub"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Footer contains Twitter/X social link",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Scroll to the footer",
+      "Step 3: Verify a Twitter/X icon/link is present in the footer",
+      "Step 4: Verify the link has a valid href attribute"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Footer contains LinkedIn social link",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Scroll to the footer",
+      "Step 3: Verify a LinkedIn icon/link is present in the footer",
+      "Step 4: Verify the link has a valid href attribute"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Home page hero section displays the correct headline",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Locate the hero section",
+      "Step 3: Verify the headline text reads 'Building the Future with Autonomous Agents'",
+      "Step 4: Verify the headline is visually prominent (large font, above the fold)"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Home page hero section displays the correct subheadline",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Locate the hero section",
+      "Step 3: Verify the subheadline text reads 'Team Elsa & Jarvis - Innovation in Code & AI.'",
+      "Step 4: Verify the subheadline appears below the main headline"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Home page hero CTA button 'View Our Work' links to /portfolio",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Locate the hero section CTA button labeled 'View Our Work'",
+      "Step 3: Verify the button is visible and clickable",
+      "Step 4: Click the button",
+      "Step 5: Verify the URL changes to '/portfolio'",
+      "Step 6: Verify the portfolio page content is displayed"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Home page has a Team Intro section",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Scroll down past the hero section",
+      "Step 3: Locate the Team Intro section",
+      "Step 4: Verify a brief description of the team's mission is present",
+      "Step 5: Verify the section is visually distinct from the hero section"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Home page 'Meet the Builders' section shows team member cards",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Scroll to the 'Meet the Builders' section",
+      "Step 3: Verify at least one card for 'Jarvis' is present",
+      "Step 4: Verify at least one card for 'Elsa' is present",
+      "Step 5: Verify each card shows a role/title for the team member"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Home page displays Featured Projects section with 2-3 projects",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Scroll to the Featured Projects section",
+      "Step 3: Verify at least 2 project items are displayed",
+      "Step 4: Verify no more than 3 projects are shown in the featured section",
+      "Step 5: Verify each featured project shows a title and description"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Portfolio page displays a grid of all projects",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Verify a grid layout with project cards is displayed",
+      "Step 3: Verify each card has a project title",
+      "Step 4: Verify each card has a description",
+      "Step 5: Count the number of cards to ensure all projects are shown"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Portfolio page has a text search/filter input",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Locate a search input field",
+      "Step 3: Verify the input is functional (can type in it)",
+      "Step 4: Type a project name into the search field",
+      "Step 5: Verify the project list filters to show only matching projects"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Portfolio page search filters projects by title",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Note the number of projects currently displayed",
+      "Step 3: Type 'Elsa' in the search input",
+      "Step 4: Verify the displayed projects are filtered to only show projects with 'Elsa' in the title",
+      "Step 5: Clear the search input",
+      "Step 6: Verify all projects are shown again"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Portfolio page search filters projects by description",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Type a keyword from a project description into the search input",
+      "Step 3: Verify the project grid filters to include projects with matching descriptions",
+      "Step 4: Clear the search",
+      "Step 5: Verify all projects return"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Portfolio page has category filter functionality",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Locate category filter options (e.g., 'AI', 'Web', 'Tools')",
+      "Step 3: Click on a specific category filter",
+      "Step 4: Verify only projects matching that category are displayed",
+      "Step 5: Click on 'All' or clear the filter",
+      "Step 6: Verify all projects are displayed again"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Project card displays thumbnail image",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Locate a project card",
+      "Step 3: Verify an image/thumbnail is displayed for the project",
+      "Step 4: Verify the image has appropriate alt text for accessibility"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Project card displays project title",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Locate a project card",
+      "Step 3: Verify the project title is displayed prominently on the card",
+      "Step 4: Verify the title is readable and not truncated unexpectedly"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Project card displays short description (1-2 lines)",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Locate a project card",
+      "Step 3: Verify a short description is displayed on the card",
+      "Step 4: Verify the description is limited to approximately 1-2 lines"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Project card displays tech stack tags",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Locate a project card",
+      "Step 3: Verify technology tags (e.g., 'Python', 'React') are displayed on the card",
+      "Step 4: Verify tags have distinct styling to differentiate them from regular text"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Project card has a 'View Details' button that navigates to the project detail page",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Locate a project card",
+      "Step 3: Verify a 'View Details' button is present on the card",
+      "Step 4: Click the 'View Details' button",
+      "Step 5: Verify the URL changes to '/portfolio/[slug]' for that project",
+      "Step 6: Verify the project details page is displayed"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Project details page displays the project title in the header",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Click 'View Details' on the first project",
+      "Step 3: Verify the project title is displayed in the page header",
+      "Step 4: Verify the title matches the title shown on the portfolio card"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Project details page displays the project date",
+    "steps": [
+      "Step 1: Navigate to a project detail page (e.g., '/portfolio/elsa-performance')",
+      "Step 2: Verify a date is displayed in the header area",
+      "Step 3: Verify the date format is human-readable"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Project details page displays project status badge (Active, Beta, etc.)",
+    "steps": [
+      "Step 1: Navigate to a project detail page",
+      "Step 2: Verify a status badge (e.g., 'Active' or 'Beta') is visible",
+      "Step 3: Verify the badge has appropriate styling to stand out",
+      "Step 4: Verify the status accurately reflects the project data"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Project details page has a 'View Code' button linking to GitHub",
+    "steps": [
+      "Step 1: Navigate to a project detail page",
+      "Step 2: Locate the links section",
+      "Step 3: Verify a 'View Code' button is present",
+      "Step 4: Verify the button has an href pointing to a GitHub URL",
+      "Step 5: Verify the link opens in a new tab (target='_blank')"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Project details page has a 'Live Demo' button",
+    "steps": [
+      "Step 1: Navigate to a project detail page",
+      "Step 2: Locate the links section",
+      "Step 3: Verify a 'Live Demo' button is present",
+      "Step 4: Verify the button has a valid href attribute",
+      "Step 5: Verify the link opens in a new tab (target='_blank')"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Project details page has an 'About' section with detailed description",
+    "steps": [
+      "Step 1: Navigate to a project detail page",
+      "Step 2: Locate the 'About' section",
+      "Step 3: Verify the section contains a detailed project description",
+      "Step 4: Verify the description is longer than the portfolio card snippet",
+      "Step 5: Verify the description is readable with proper formatting"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Project details page has a 'Key Features' section with bullet points",
+    "steps": [
+      "Step 1: Navigate to a project detail page",
+      "Step 2: Locate the 'Key Features' section",
+      "Step 3: Verify at least 3 feature bullet points are present",
+      "Step 4: Verify each bullet point describes a distinct feature",
+      "Step 5: Verify the list formatting is correct (bullet points or similar)"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Project details page has a screenshots/gallery section",
+    "steps": [
+      "Step 1: Navigate to a project detail page",
+      "Step 2: Scroll through the page to find the screenshots section",
+      "Step 3: Verify at least one screenshot/image is displayed",
+      "Step 4: Verify images have appropriate alt text",
+      "Step 5: Verify the gallery layout is visually organized"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Project details page displays the tech stack list",
+    "steps": [
+      "Step 1: Navigate to a project detail page",
+      "Step 2: Locate the Tech Stack section",
+      "Step 3: Verify a list of technologies is displayed",
+      "Step 4: Verify each technology has a visible label",
+      "Step 5: Verify the tech stack matches what is shown on the portfolio card"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Resources page displays a curated list of tools and resources",
+    "steps": [
+      "Step 1: Navigate to '/resources'",
+      "Step 2: Verify a list of resources is displayed",
+      "Step 3: Verify each resource has a name/title",
+      "Step 4: Verify each resource has a description",
+      "Step 5: Count that there are at least 5 resources listed"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Resources page categorizes resources (AI Models, DevOps, Learning)",
+    "steps": [
+      "Step 1: Navigate to '/resources'",
+      "Step 2: Verify resources are grouped by category",
+      "Step 3: Verify at least one category for 'AI Models' or similar is present",
+      "Step 4: Verify at least one category for 'DevOps' or similar is present",
+      "Step 5: Verify at least one category for 'Learning' or similar is present"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Resources page items have clickable links",
+    "steps": [
+      "Step 1: Navigate to '/resources'",
+      "Step 2: Locate a resource item",
+      "Step 3: Verify the resource has a clickable link",
+      "Step 4: Verify the link href points to an external URL",
+      "Step 5: Verify external links open in a new tab"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Dynamic routing works for all project slugs",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Note all project slugs from the URL when clicking View Details",
+      "Step 3: Directly navigate to '/portfolio/[slug]' for the first project",
+      "Step 4: Verify the correct project data is displayed",
+      "Step 5: Directly navigate to '/portfolio/[slug]' for the second project",
+      "Step 6: Verify the correct project data is displayed for the second project"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "404 page shows for invalid project slugs",
+    "steps": [
+      "Step 1: Navigate to '/portfolio/this-project-does-not-exist'",
+      "Step 2: Verify a 404 or 'not found' page is displayed",
+      "Step 3: Verify the error message is user-friendly",
+      "Step 4: Verify navigation back to the portfolio is available"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Application loads without JavaScript errors in console",
+    "steps": [
+      "Step 1: Open browser developer tools",
+      "Step 2: Navigate to '/'",
+      "Step 3: Check the console for JavaScript errors",
+      "Step 4: Navigate to '/portfolio'",
+      "Step 5: Check for any JavaScript errors",
+      "Step 6: Navigate to '/resources'",
+      "Step 7: Check for any JavaScript errors",
+      "Step 8: Navigate to a project detail page",
+      "Step 9: Check for any JavaScript errors"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Projects data is loaded from local JSON file",
+    "steps": [
+      "Step 1: Check that '/data/projects.json' file exists in the project",
+      "Step 2: Verify the JSON file contains an array of project objects",
+      "Step 3: Verify each project has required fields: title, slug, description, tech, etc.",
+      "Step 4: Navigate to '/portfolio'",
+      "Step 5: Verify the displayed projects match the data in projects.json"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Resources data is loaded from local JSON file",
+    "steps": [
+      "Step 1: Check that '/data/resources.json' file exists in the project",
+      "Step 2: Verify the JSON file contains resource objects with categories",
+      "Step 3: Navigate to '/resources'",
+      "Step 4: Verify the displayed resources match the data in resources.json"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Team data is loaded from local JSON file",
+    "steps": [
+      "Step 1: Check that '/data/team.json' file exists in the project",
+      "Step 2: Verify the JSON file contains team member objects",
+      "Step 3: Navigate to '/'",
+      "Step 4: Verify the team members displayed match the data in team.json"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "ElsaPerformance project is in the projects data with proper details",
+    "steps": [
+      "Step 1: Check 'data/projects.json' for a project with the name 'ElsaPerformance'",
+      "Step 2: Verify the project has a unique slug",
+      "Step 3: Verify the project has a description",
+      "Step 4: Verify the project has tech stack tags",
+      "Step 5: Navigate to the ElsaPerformance project detail page",
+      "Step 6: Verify all project data renders correctly"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "AutonomousCodingAgent project is in the projects data with proper details",
+    "steps": [
+      "Step 1: Check 'data/projects.json' for a project related to 'AutonomousCodingAgent'",
+      "Step 2: Verify the project has a unique slug",
+      "Step 3: Verify the project has a description",
+      "Step 4: Navigate to the AutonomousCodingAgent project detail page",
+      "Step 5: Verify all project data renders correctly"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Back navigation from project detail returns to portfolio",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Click 'View Details' on a project",
+      "Step 3: Verify you are on the project detail page",
+      "Step 4: Find a 'Back to Portfolio' link or use browser back button",
+      "Step 5: Verify navigation returns to '/portfolio'",
+      "Step 6: Verify the portfolio page is displayed correctly"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Navbar logo link navigates to home page",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Click on the navbar logo 'Team Elsa & Jarvis'",
+      "Step 3: Verify the URL changes to '/'",
+      "Step 4: Verify the home page content is displayed"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Featured projects on home page link to project detail pages",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Locate the Featured Projects section",
+      "Step 3: Click on a featured project card or its 'View Details' link",
+      "Step 4: Verify navigation to the correct project detail page",
+      "Step 5: Verify the project title on the detail page matches the featured card"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Team member cards show member name and role",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Scroll to the 'Meet the Builders' section",
+      "Step 3: Find the Jarvis card and verify it shows 'Jarvis' as the name",
+      "Step 4: Verify the Jarvis card shows a role/title",
+      "Step 5: Find the Elsa card and verify it shows 'Elsa' as the name",
+      "Step 6: Verify the Elsa card shows a role/title"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Project detail page 'View Code' link has correct GitHub URL",
+    "steps": [
+      "Step 1: Navigate to the ElsaPerformance project detail page",
+      "Step 2: Find the 'View Code' button",
+      "Step 3: Inspect the href attribute of the button",
+      "Step 4: Verify the URL contains 'github.com'",
+      "Step 5: Verify the URL is not just a placeholder '#'"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Multiple projects have distinct slugs and render unique detail pages",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Click View Details on the first project and note the URL slug",
+      "Step 3: Go back to portfolio",
+      "Step 4: Click View Details on the second project and note the URL slug",
+      "Step 5: Verify the two slugs are different",
+      "Step 6: Verify each page shows unique project-specific content"
+    ],
+    "passes": true
+  },
+  {
+    "category": "style",
+    "description": "Overall color palette uses deep blue/indigo as primary color",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Take a screenshot of the full page",
+      "Step 3: Verify primary UI elements use deep blue or indigo color tones",
+      "Step 4: Check the navigation bar for indigo/blue background or text",
+      "Step 5: Verify the color scheme feels professional and futuristic"
+    ],
+    "passes": true
+  },
+  {
+    "category": "style",
+    "description": "Accent color (cyan or teal) used for buttons and highlights",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Locate CTA buttons (e.g., 'View Our Work')",
+      "Step 3: Verify the primary button uses cyan or teal accent color",
+      "Step 4: Navigate to '/portfolio'",
+      "Step 5: Verify 'View Details' buttons use the same accent color",
+      "Step 6: Check highlighted elements for consistent accent color usage"
+    ],
+    "passes": true
+  },
+  {
+    "category": "style",
+    "description": "Light mode background is white or gray-50",
+    "steps": [
+      "Step 1: Navigate to '/' in light mode",
+      "Step 2: Take a screenshot",
+      "Step 3: Verify the page background is white or a very light gray (gray-50)",
+      "Step 4: Verify text is dark and readable against the light background"
+    ],
+    "passes": true
+  },
+  {
+    "category": "style",
+    "description": "Dark mode background uses slate-900 or slate-950",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Toggle to dark mode",
+      "Step 3: Take a screenshot",
+      "Step 4: Verify the page background is a very dark slate (slate-900 or slate-950)",
+      "Step 5: Verify text is light and readable against the dark background"
+    ],
+    "passes": true
+  },
+  {
+    "category": "style",
+    "description": "Typography uses Inter or Geist Sans font",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Inspect the body font using browser developer tools",
+      "Step 3: Verify the primary font is 'Inter' or 'Geist Sans'",
+      "Step 4: Verify the font renders cleanly and is modern-looking",
+      "Step 5: Check headings and body text for consistent font application"
+    ],
+    "passes": true
+  },
+  {
+    "category": "style",
+    "description": "Navbar styling is professional and clean in light mode",
+    "steps": [
+      "Step 1: Navigate to '/' in light mode",
+      "Step 2: Take a screenshot of the navbar",
+      "Step 3: Verify the navbar has clean styling with proper padding",
+      "Step 4: Verify links are properly spaced and readable",
+      "Step 5: Verify the logo text is visually prominent"
+    ],
+    "passes": true
+  },
+  {
+    "category": "style",
+    "description": "Navbar styling is professional and clean in dark mode",
+    "steps": [
+      "Step 1: Navigate to '/' and toggle to dark mode",
+      "Step 2: Take a screenshot of the navbar",
+      "Step 3: Verify the navbar adapts to dark mode with appropriate colors",
+      "Step 4: Verify links are readable against the dark background",
+      "Step 5: Verify the theme toggle icon changes to the moon/sun appropriately"
+    ],
+    "passes": true
+  },
+  {
+    "category": "style",
+    "description": "Hero section has visually impactful design",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Take a screenshot of the hero section",
+      "Step 3: Verify the hero section takes up a significant portion of the viewport",
+      "Step 4: Verify the headline is large and visually prominent",
+      "Step 5: Verify there is adequate spacing between elements",
+      "Step 6: Verify the CTA button stands out with accent color"
+    ],
+    "passes": true
+  },
+  {
+    "category": "style",
+    "description": "Portfolio grid layout is clean and organized",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Take a screenshot of the project grid",
+      "Step 3: Verify projects are displayed in a grid (2-3 columns on desktop)",
+      "Step 4: Verify cards have consistent sizing",
+      "Step 5: Verify there is proper spacing (gap) between cards",
+      "Step 6: Verify the grid looks balanced and professional"
+    ],
+    "passes": true
+  },
+  {
+    "category": "style",
+    "description": "Project cards have hover effects",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Hover over a project card",
+      "Step 3: Verify a visual hover effect is present (shadow, scale, color change)",
+      "Step 4: Verify the hover effect is smooth (CSS transition)",
+      "Step 5: Verify the hover effect enhances usability without being distracting"
+    ],
+    "passes": true
+  },
+  {
+    "category": "style",
+    "description": "Tech stack tags have distinct badge styling",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Locate tech stack tags on a project card",
+      "Step 3: Verify tags have a pill/badge shape with background color",
+      "Step 4: Verify tags have readable text with appropriate font size",
+      "Step 5: Verify tag colors are consistent with the overall color scheme"
+    ],
+    "passes": true
+  },
+  {
+    "category": "style",
+    "description": "Footer has appropriate styling and is distinguishable from page content",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Scroll to the footer",
+      "Step 3: Verify the footer has a distinct background or border to separate it from content",
+      "Step 4: Verify social icons are properly styled and visible",
+      "Step 5: Verify copyright text is readable but smaller than body content"
+    ],
+    "passes": true
+  },
+  {
+    "category": "style",
+    "description": "Project detail page has clean, readable layout",
+    "steps": [
+      "Step 1: Navigate to a project detail page",
+      "Step 2: Take a screenshot of the full page",
+      "Step 3: Verify the page has good content hierarchy (title > subtitle > body)",
+      "Step 4: Verify text is well-spaced and readable",
+      "Step 5: Verify buttons are well-positioned and styled consistently",
+      "Step 6: Verify the tech stack tags match the style from the portfolio cards"
+    ],
+    "passes": true
+  },
+  {
+    "category": "style",
+    "description": "Team member cards on home page are visually attractive",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Scroll to the 'Meet the Builders' section",
+      "Step 3: Take a screenshot of the team cards",
+      "Step 4: Verify cards have consistent styling with rounded corners",
+      "Step 5: Verify the layout is clean with proper padding inside cards",
+      "Step 6: Verify team member names are visually prominent"
+    ],
+    "passes": true
+  },
+  {
+    "category": "style",
+    "description": "Resources page has clear category headers",
+    "steps": [
+      "Step 1: Navigate to '/resources'",
+      "Step 2: Take a screenshot",
+      "Step 3: Verify category headers are visually prominent",
+      "Step 4: Verify there is visual separation between categories",
+      "Step 5: Verify resource items within categories are properly indented/styled"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Application is responsive on mobile viewports",
+    "steps": [
+      "Step 1: Set browser viewport to 375px wide (mobile)",
+      "Step 2: Navigate to '/'",
+      "Step 3: Verify the navbar is responsive (hamburger menu or stacked)",
+      "Step 4: Verify the hero section is readable on mobile",
+      "Step 5: Navigate to '/portfolio'",
+      "Step 6: Verify the project grid stacks to single column on mobile",
+      "Step 7: Navigate to a project detail page",
+      "Step 8: Verify the content is readable without horizontal scrolling"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Application is responsive on tablet viewports",
+    "steps": [
+      "Step 1: Set browser viewport to 768px wide (tablet)",
+      "Step 2: Navigate to '/'",
+      "Step 3: Verify the navbar adapts appropriately",
+      "Step 4: Verify the hero section is well-proportioned",
+      "Step 5: Navigate to '/portfolio'",
+      "Step 6: Verify the project grid shows 2 columns on tablet",
+      "Step 7: Verify no content overflows its container"
+    ],
+    "passes": true
+  },
+  {
+    "category": "style",
+    "description": "Mobile viewport has proper hamburger menu or mobile navigation",
+    "steps": [
+      "Step 1: Set browser viewport to 375px wide",
+      "Step 2: Navigate to '/'",
+      "Step 3: Verify a hamburger menu icon or mobile-friendly nav is present",
+      "Step 4: Click the hamburger menu",
+      "Step 5: Verify navigation links appear in a mobile-friendly dropdown or drawer",
+      "Step 6: Click a navigation link",
+      "Step 7: Verify navigation works and menu closes"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Page titles are set correctly for SEO using Next.js metadata",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Check the browser tab title",
+      "Step 3: Verify the title relates to 'Team Elsa & Jarvis' or the site name",
+      "Step 4: Navigate to '/portfolio'",
+      "Step 5: Verify the browser tab title includes 'Portfolio'",
+      "Step 6: Navigate to a project detail page",
+      "Step 7: Verify the browser tab title includes the project name"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "All navigation links have active/current state highlighting",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Verify the 'Home' nav link has an active/highlighted state",
+      "Step 3: Navigate to '/portfolio'",
+      "Step 4: Verify the 'Portfolio' nav link has an active/highlighted state",
+      "Step 5: Navigate to '/resources'",
+      "Step 6: Verify the 'Resources' nav link has an active/highlighted state"
+    ],
+    "passes": true
+  },
+  {
+    "category": "style",
+    "description": "Active navigation link is visually distinct from inactive links",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Take a screenshot of the navbar",
+      "Step 3: Verify 'Portfolio' link has a different color or underline compared to other links",
+      "Step 4: Verify the distinction is subtle but clear",
+      "Step 5: Verify no other links appear active"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Project search is case-insensitive",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Note the name of a project (e.g., 'ElsaPerformance')",
+      "Step 3: Type the project name in all lowercase in the search",
+      "Step 4: Verify the project appears in search results",
+      "Step 5: Clear search and type in all uppercase",
+      "Step 6: Verify the project still appears in search results"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Portfolio page shows 'no results' message when search finds nothing",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Type a nonsensical string in the search input (e.g., 'zzzzxxx')",
+      "Step 3: Verify a 'no results' or 'no projects found' message is displayed",
+      "Step 4: Verify the message is user-friendly",
+      "Step 5: Clear the search",
+      "Step 6: Verify all projects return"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Theme toggle icon shows sun icon in dark mode",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Toggle to dark mode",
+      "Step 3: Verify the theme toggle icon shows a Sun icon (indicating click will go to light mode)",
+      "Step 4: Verify the icon is visible against the dark navbar background"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Theme toggle icon shows moon icon in light mode",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Ensure light mode is active",
+      "Step 3: Verify the theme toggle icon shows a Moon icon (indicating click will go to dark mode)",
+      "Step 4: Verify the icon is visible against the light navbar background"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "All images in the application load without 404 errors",
+    "steps": [
+      "Step 1: Open browser developer tools network tab",
+      "Step 2: Navigate to '/'",
+      "Step 3: Check network tab for any 404 errors on image resources",
+      "Step 4: Navigate to '/portfolio'",
+      "Step 5: Check for 404 image errors",
+      "Step 6: Navigate to a project detail page",
+      "Step 7: Check for 404 image errors in screenshots section",
+      "Step 8: Verify all images load successfully"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Resources page shows tool name, description, and link",
+    "steps": [
+      "Step 1: Navigate to '/resources'",
+      "Step 2: Locate a resource item",
+      "Step 3: Verify the tool/resource name is displayed",
+      "Step 4: Verify a brief description is displayed",
+      "Step 5: Verify a link to the resource is present",
+      "Step 6: Repeat for at least 3 more resources"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Project detail page key features are presented as a bulleted list",
+    "steps": [
+      "Step 1: Navigate to a project detail page",
+      "Step 2: Find the Key Features section",
+      "Step 3: Verify features are presented as a list (ul/ol elements or styled bullets)",
+      "Step 4: Verify at least 3 features are listed",
+      "Step 5: Verify each feature item is on its own line"
+    ],
+    "passes": true
+  },
+  {
+    "category": "style",
+    "description": "Hero section CTA button has a strong visual design",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Locate the 'View Our Work' button in the hero",
+      "Step 3: Verify the button is large and visually prominent",
+      "Step 4: Verify the button has appropriate padding",
+      "Step 5: Verify hover state changes the button appearance",
+      "Step 6: Verify the button color contrasts well with the hero background"
+    ],
+    "passes": true
+  },
+  {
+    "category": "style",
+    "description": "Featured projects on home page have consistent card styling",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Scroll to the Featured Projects section",
+      "Step 3: Verify all featured project cards have the same height",
+      "Step 4: Verify all cards have consistent border-radius",
+      "Step 5: Verify card content (title, description) is aligned consistently",
+      "Step 6: Verify the section heading is visually prominent"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Application builds without TypeScript errors",
+    "steps": [
+      "Step 1: Run 'npm run build' in the project directory",
+      "Step 2: Verify the build completes without TypeScript errors",
+      "Step 3: Verify the build completes without warnings about missing types",
+      "Step 4: Verify the build output indicates success"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Application dev server starts without errors",
+    "steps": [
+      "Step 1: Run 'npm run dev' in the project directory",
+      "Step 2: Verify the server starts on port 3000 (or configured port)",
+      "Step 3: Verify no startup errors are shown in the terminal",
+      "Step 4: Navigate to 'http://localhost:3000'",
+      "Step 5: Verify the home page loads successfully"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "All pages have proper HTML structure with semantic elements",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: View the page source or DOM structure",
+      "Step 3: Verify a <main> element wraps the main content",
+      "Step 4: Verify <nav> element is used for navigation",
+      "Step 5: Verify <footer> element is used for the footer",
+      "Step 6: Verify <header> or appropriate tags are used for hero sections"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Project cards are keyboard navigable",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Use Tab key to navigate through the page",
+      "Step 3: Verify each project card's 'View Details' button is focusable via Tab",
+      "Step 4: Press Enter when a card is focused",
+      "Step 5: Verify navigation to the project detail page occurs",
+      "Step 6: Verify focus is visible (outline or highlight)"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Navigation bar is keyboard navigable",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Press Tab to focus on the first nav element",
+      "Step 3: Verify each nav link is focusable and shows visible focus",
+      "Step 4: Press Enter on the 'Portfolio' link when focused",
+      "Step 5: Verify navigation to '/portfolio' occurs"
+    ],
+    "passes": true
+  },
+  {
+    "category": "style",
+    "description": "Section headings have consistent typography hierarchy",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Verify main section headings (h1, h2) are visually large",
+      "Step 3: Verify subsection headings (h3) are smaller than h2",
+      "Step 4: Navigate to '/portfolio'",
+      "Step 5: Verify the page heading is consistent with the home page hierarchy",
+      "Step 6: Verify body text is smaller than all heading levels"
+    ],
+    "passes": true
+  },
+  {
+    "category": "style",
+    "description": "Buttons have consistent styling across all pages",
+    "steps": [
+      "Step 1: Note the style of the CTA button on '/'",
+      "Step 2: Navigate to '/portfolio' and note 'View Details' button style",
+      "Step 3: Navigate to a project detail page and note 'View Code' button style",
+      "Step 4: Verify all primary buttons use the same accent color",
+      "Step 5: Verify all buttons have consistent border-radius and padding"
+    ],
+    "passes": true
+  },
+  {
+    "category": "style",
+    "description": "Card components have consistent border-radius and shadow",
+    "steps": [
+      "Step 1: Navigate to '/portfolio' and inspect a project card",
+      "Step 2: Note the border-radius of the card",
+      "Step 3: Navigate to '/' and inspect team member cards",
+      "Step 4: Verify team member cards have the same border-radius",
+      "Step 5: Verify shadow/elevation is consistent across card types",
+      "Step 6: Verify card borders (if any) use consistent color"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Dark mode changes all text to appropriate light colors",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Toggle to dark mode",
+      "Step 3: Verify all body text is light-colored (white or light gray)",
+      "Step 4: Verify headings are also light-colored",
+      "Step 5: Navigate to '/portfolio' in dark mode",
+      "Step 6: Verify project card text is readable in dark mode",
+      "Step 7: Navigate to '/resources' in dark mode",
+      "Step 8: Verify all resource text is readable"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Dark mode properly styles navigation bar",
+    "steps": [
+      "Step 1: Toggle to dark mode",
+      "Step 2: Inspect the navbar",
+      "Step 3: Verify navbar has dark background appropriate for dark mode",
+      "Step 4: Verify nav links are readable in dark mode",
+      "Step 5: Verify the theme toggle button is visible and functional in dark mode"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Dark mode properly styles footer",
+    "steps": [
+      "Step 1: Toggle to dark mode",
+      "Step 2: Scroll to footer",
+      "Step 3: Verify footer background is appropriate for dark mode",
+      "Step 4: Verify footer text is readable in dark mode",
+      "Step 5: Verify social icons are visible in dark mode"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Dark mode properly styles project cards",
+    "steps": [
+      "Step 1: Navigate to '/portfolio' in dark mode",
+      "Step 2: Inspect project cards",
+      "Step 3: Verify card backgrounds are dark (not white)",
+      "Step 4: Verify card titles and descriptions are readable in dark mode",
+      "Step 5: Verify tech tag badges are readable in dark mode",
+      "Step 6: Verify card borders or shadows adapt to dark mode"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Dark mode properly styles resource items",
+    "steps": [
+      "Step 1: Navigate to '/resources' in dark mode",
+      "Step 2: Verify resource category headers are visible in dark mode",
+      "Step 3: Verify resource item text is readable",
+      "Step 4: Verify links are visible and have appropriate dark-mode link styling"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Project detail page properly renders in dark mode",
+    "steps": [
+      "Step 1: Navigate to a project detail page in dark mode",
+      "Step 2: Verify the page title is readable",
+      "Step 3: Verify the About section text is readable",
+      "Step 4: Verify the Key Features list is readable",
+      "Step 5: Verify the Tech Stack section is readable",
+      "Step 6: Verify the action buttons (View Code, Live Demo) are visible",
+      "Step 7: Verify screenshots section is visible in dark mode"
+    ],
+    "passes": true
+  },
+  {
+    "category": "style",
+    "description": "Home page has visually distinct sections with proper spacing",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Take a full-page screenshot",
+      "Step 3: Verify the Hero, Team, and Featured Projects sections are clearly separated",
+      "Step 4: Verify each section has adequate padding/margin",
+      "Step 5: Verify section transitions feel natural and not cramped",
+      "Step 6: Verify alternating section backgrounds or dividers for visual separation"
+    ],
+    "passes": true
+  },
+  {
+    "category": "style",
+    "description": "Portfolio page search input is prominently styled",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Locate the search input",
+      "Step 3: Verify the search input is visually prominent (full-width or large)",
+      "Step 4: Verify the search input has a search icon or placeholder text",
+      "Step 5: Verify the input has clear focus styling when clicked",
+      "Step 6: Verify the input border/styling matches the overall design"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Projects JSON data structure includes all required fields",
+    "steps": [
+      "Step 1: Open 'data/projects.json'",
+      "Step 2: Verify each project has a 'title' field",
+      "Step 3: Verify each project has a 'slug' field",
+      "Step 4: Verify each project has a 'description' field",
+      "Step 5: Verify each project has a 'techStack' or 'tech' array",
+      "Step 6: Verify each project has a 'status' field (Active/Beta)",
+      "Step 7: Verify each project has a 'githubUrl' or similar field",
+      "Step 8: Verify each project has a 'category' field",
+      "Step 9: Verify each project has a 'date' or 'year' field",
+      "Step 10: Verify each project has a 'features' array for key features"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Resources JSON data structure includes all required fields",
+    "steps": [
+      "Step 1: Open 'data/resources.json'",
+      "Step 2: Verify each resource has a 'name' field",
+      "Step 3: Verify each resource has a 'description' field",
+      "Step 4: Verify each resource has a 'url' field",
+      "Step 5: Verify each resource has a 'category' field",
+      "Step 6: Verify there are resources in at least 3 different categories"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Team JSON data structure includes all required fields",
+    "steps": [
+      "Step 1: Open 'data/team.json'",
+      "Step 2: Verify each team member has a 'name' field",
+      "Step 3: Verify each team member has a 'role' field",
+      "Step 4: Verify each team member has a 'bio' or 'description' field",
+      "Step 5: Verify 'Jarvis' is in the team data",
+      "Step 6: Verify 'Elsa' is in the team data"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "Application handles missing optional project fields gracefully",
+    "steps": [
+      "Step 1: Temporarily remove the 'liveDemo' field from a project in projects.json",
+      "Step 2: Navigate to that project's detail page",
+      "Step 3: Verify the page does not crash",
+      "Step 4: Verify the 'Live Demo' button is either hidden or shows an appropriate disabled state",
+      "Step 5: Restore the field"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Status badges use color-coded styling (Active=green, Beta=yellow)",
+    "steps": [
+      "Step 1: Navigate to a project detail page with 'Active' status",
+      "Step 2: Verify the badge uses a green color scheme",
+      "Step 3: Navigate to a project detail page with 'Beta' status",
+      "Step 4: Verify the badge uses a yellow or amber color scheme",
+      "Step 5: Verify badges have appropriate text contrast ratio"
+    ],
+    "passes": true
+  },
+  {
+    "category": "style",
+    "description": "Tech stack tags on project cards use consistent colors per technology",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Find a card with 'Python' tech tag",
+      "Step 3: Find another card with 'Python' tech tag",
+      "Step 4: Verify both 'Python' tags have the same styling/color",
+      "Step 5: Verify different technologies have visually distinct but harmonious colors"
+    ],
+    "passes": true
+  },
+  {
+    "category": "functional",
+    "description": "All external links open in new tab",
+    "steps": [
+      "Step 1: Navigate to '/resources'",
+      "Step 2: Inspect each resource link element",
+      "Step 3: Verify target='_blank' attribute is present on external links",
+      "Step 4: Navigate to a project detail page",
+      "Step 5: Inspect 'View Code' and 'Live Demo' links",
+      "Step 6: Verify both have target='_blank'",
+      "Step 7: Verify rel='noopener noreferrer' is also set for security"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Portfolio category filter clears when 'All' is selected",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Click on a specific category filter (e.g., 'AI')",
+      "Step 3: Verify only AI projects are shown",
+      "Step 4: Click on 'All' filter option",
+      "Step 5: Verify all projects are now displayed",
+      "Step 6: Verify the 'All' filter button has an active visual state"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Search and category filter work together",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Select category 'AI'",
+      "Step 3: Verify only AI projects are shown",
+      "Step 4: Type a search term in the search box",
+      "Step 5: Verify results are filtered by both category AND search term",
+      "Step 6: Clear the search",
+      "Step 7: Verify all AI projects return (category filter still active)"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Project detail page header section is visually prominent",
+    "steps": [
+      "Step 1: Navigate to a project detail page",
+      "Step 2: Take a screenshot of the top of the page",
+      "Step 3: Verify the project title is large and prominent",
+      "Step 4: Verify the status badge is clearly visible",
+      "Step 5: Verify the date is shown but smaller than the title",
+      "Step 6: Verify there is adequate spacing before the main content"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Screenshots gallery has a clean layout",
+    "steps": [
+      "Step 1: Navigate to a project detail page with screenshots",
+      "Step 2: Scroll to the Screenshots section",
+      "Step 3: Verify screenshots are displayed in a grid or carousel",
+      "Step 4: Verify images have consistent sizing/aspect ratio",
+      "Step 5: Verify the section has a clear heading",
+      "Step 6: Verify images have rounded corners matching the card style"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Home page has proper scrolling behavior",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Verify the page allows smooth scrolling through all sections",
+      "Step 3: Scroll to bottom to find Featured Projects section",
+      "Step 4: Verify no content is cut off or hidden",
+      "Step 5: Scroll back to top",
+      "Step 6: Verify the hero section is back in full view"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Portfolio page URL is bookmarkable and shareable",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Apply a search filter",
+      "Step 3: Copy the URL",
+      "Step 4: Open a new browser tab",
+      "Step 5: Paste and navigate to the URL",
+      "Step 6: Verify the portfolio page loads (note: search state may or may not persist)"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Next.js App Router is used for routing",
+    "steps": [
+      "Step 1: Check the project file structure",
+      "Step 2: Verify 'app/' directory exists (App Router pattern)",
+      "Step 3: Verify 'app/page.tsx' exists for home page",
+      "Step 4: Verify 'app/portfolio/page.tsx' exists",
+      "Step 5: Verify 'app/portfolio/[slug]/page.tsx' exists for dynamic routes",
+      "Step 6: Verify 'app/resources/page.tsx' exists"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Root layout includes navbar and footer on all pages",
+    "steps": [
+      "Step 1: Check 'app/layout.tsx'",
+      "Step 2: Verify Navbar component is imported and rendered",
+      "Step 3: Verify Footer component is imported and rendered",
+      "Step 4: Verify {children} is properly placed between Navbar and Footer",
+      "Step 5: Navigate to '/' and verify navbar and footer appear",
+      "Step 6: Navigate to '/portfolio' and verify navbar and footer appear"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "ThemeProvider wraps the application for dark/light mode support",
+    "steps": [
+      "Step 1: Check 'app/layout.tsx' for ThemeProvider",
+      "Step 2: Verify next-themes ThemeProvider is present",
+      "Step 3: Verify ThemeProvider wraps the entire app content",
+      "Step 4: Toggle the theme and verify it persists",
+      "Step 5: Refresh the page and verify the theme choice persists (localStorage)"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Tailwind CSS classes are properly applied",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Inspect any element using browser dev tools",
+      "Step 3: Verify Tailwind utility classes are present in className attributes",
+      "Step 4: Verify the Tailwind config includes the app directory for purging",
+      "Step 5: Verify there are no missing or broken styles due to purging"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Lucide React icons render correctly throughout the app",
+    "steps": [
+      "Step 1: Navigate to '/' and verify theme toggle icon (Sun/Moon) renders",
+      "Step 2: Navigate to footer and verify social icons render (Github, Twitter, LinkedIn)",
+      "Step 3: Navigate to '/portfolio' and verify any UI icons render",
+      "Step 4: Navigate to a project detail page and verify link icons render",
+      "Step 5: Verify all icons are properly sized and aligned"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Project cards on portfolio page are horizontally responsive",
+    "steps": [
+      "Step 1: Navigate to '/portfolio' on a wide desktop (1280px+)",
+      "Step 2: Verify cards display in 3 columns",
+      "Step 3: Resize to 1024px",
+      "Step 4: Verify layout adapts appropriately",
+      "Step 5: Resize to 768px tablet",
+      "Step 6: Verify cards display in 2 columns",
+      "Step 7: Resize to 375px mobile",
+      "Step 8: Verify cards stack to 1 column",
+      "Step 9: Verify no overflow at any breakpoint"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Footer social links are accessible with ARIA labels",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Scroll to footer",
+      "Step 3: Inspect social icon links using browser dev tools",
+      "Step 4: Verify each icon link has an aria-label attribute",
+      "Step 5: Verify the aria-label describes the link destination (e.g., 'GitHub Profile')"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Portfolio page heading and description are present",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Verify a page heading (e.g., 'Our Portfolio' or 'Projects') is visible",
+      "Step 3: Verify optionally a subtitle or description is present below the heading",
+      "Step 4: Verify the heading uses appropriate font size (h1 or h2)"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Resources page heading and introduction are present",
+    "steps": [
+      "Step 1: Navigate to '/resources'",
+      "Step 2: Verify a page heading (e.g., 'Resources' or 'Tools & Resources') is visible",
+      "Step 3: Verify an introductory paragraph about the resources is present",
+      "Step 4: Verify the heading uses appropriate font size"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Page transitions feel smooth when navigating between pages",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Click 'Portfolio' in the navbar",
+      "Step 3: Observe the page transition",
+      "Step 4: Verify the transition is smooth (no jarring flash)",
+      "Step 5: Click a project's 'View Details'",
+      "Step 6: Observe the transition to the detail page",
+      "Step 7: Verify content loads smoothly"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Images in project gallery have consistent aspect ratio",
+    "steps": [
+      "Step 1: Navigate to a project detail page with screenshots",
+      "Step 2: View the screenshots section",
+      "Step 3: Verify all screenshots maintain the same aspect ratio",
+      "Step 4: Verify images don't appear stretched or distorted",
+      "Step 5: Verify object-fit is applied appropriately"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Application does not have any broken internal links",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Click every internal link on the home page",
+      "Step 3: Verify each link leads to a valid page (no 404s)",
+      "Step 4: Navigate to '/portfolio' and click all internal links",
+      "Step 5: Navigate to '/resources' and verify no broken links",
+      "Step 6: Navigate to a project detail page and click all internal links"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Team member card data is sourced from team.json",
+    "steps": [
+      "Step 1: Open 'data/team.json' and note team member names and roles",
+      "Step 2: Navigate to '/'",
+      "Step 3: Scroll to 'Meet the Builders' section",
+      "Step 4: Verify displayed names match team.json data",
+      "Step 5: Verify displayed roles match team.json data",
+      "Step 6: Add a new team member to team.json and reload",
+      "Step 7: Verify the new member appears on the home page"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Project screenshots are displayed from local or external URLs",
+    "steps": [
+      "Step 1: Open 'data/projects.json'",
+      "Step 2: Verify each project has a 'screenshots' array",
+      "Step 3: Navigate to a project detail page",
+      "Step 4: Verify screenshots section shows images from the data",
+      "Step 5: Verify images load successfully (no broken image icons)"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Resources page items have hover effects for interactivity",
+    "steps": [
+      "Step 1: Navigate to '/resources'",
+      "Step 2: Hover over a resource item",
+      "Step 3: Verify a subtle hover effect is present (color change, underline, etc.)",
+      "Step 4: Verify the hover effect is smooth and not jarring",
+      "Step 5: Verify the cursor changes to pointer on hoverable links"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Dark mode cards have appropriate dark background with visible borders",
+    "steps": [
+      "Step 1: Toggle to dark mode",
+      "Step 2: Navigate to '/portfolio'",
+      "Step 3: Verify project cards have dark backgrounds (not white)",
+      "Step 4: Verify card borders or shadows are visible in dark mode",
+      "Step 5: Verify cards are distinguishable from the page background"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Portfolio page category filters display count of projects per category",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Locate category filter buttons",
+      "Step 3: Verify each filter shows a count (e.g., 'AI (3)') OR verify the category labels clearly exist",
+      "Step 4: Click a category and verify the correct number of projects are shown"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Featured projects section on home page shows projects marked as featured",
+    "steps": [
+      "Step 1: Open 'data/projects.json'",
+      "Step 2: Identify projects with 'featured: true' flag",
+      "Step 3: Navigate to '/'",
+      "Step 4: Scroll to Featured Projects section",
+      "Step 5: Verify exactly the featured projects from the JSON are displayed",
+      "Step 6: Verify non-featured projects are not shown in this section"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Project slug is derived from the project title in a URL-safe format",
+    "steps": [
+      "Step 1: Open 'data/projects.json'",
+      "Step 2: Find a project with spaces in the title (e.g., 'Elsa Performance')",
+      "Step 3: Verify the slug is lowercase with hyphens (e.g., 'elsa-performance')",
+      "Step 4: Navigate to the project using the slug URL",
+      "Step 5: Verify the project loads correctly"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Home page hero section has a visually appealing background",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Take a screenshot of the hero section",
+      "Step 3: Verify the hero has a gradient background, pattern, or visually interesting treatment",
+      "Step 4: Verify the background complements the indigo/blue color palette",
+      "Step 5: Verify the text remains readable against the hero background",
+      "Step 6: Verify the dark mode hero background is appropriate and attractive"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Application uses Next.js Image component for optimized images",
+    "steps": [
+      "Step 1: Inspect the page source for project thumbnail images",
+      "Step 2: Verify Next.js Image component is used (renders as <img> with specific attributes)",
+      "Step 3: Verify images have proper width and height props",
+      "Step 4: Verify image URLs are properly handled by Next.js",
+      "Step 5: Verify images load with proper lazy loading behavior"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "TypeScript interfaces are defined for project, resource, and team data",
+    "steps": [
+      "Step 1: Check the TypeScript files for type definitions",
+      "Step 2: Verify a 'Project' interface or type is defined",
+      "Step 3: Verify the Project type includes all required fields",
+      "Step 4: Verify a 'Resource' interface or type is defined",
+      "Step 5: Verify a 'TeamMember' interface or type is defined",
+      "Step 6: Verify TypeScript compilation passes without type errors"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Navbar collapses properly on small screens",
+    "steps": [
+      "Step 1: Set viewport to 375px (mobile)",
+      "Step 2: Navigate to '/'",
+      "Step 3: Verify desktop nav links are hidden on mobile",
+      "Step 4: Verify a mobile menu trigger (hamburger) is visible",
+      "Step 5: Open the mobile menu",
+      "Step 6: Verify all nav links are accessible in mobile menu",
+      "Step 7: Click a link and verify menu closes after navigation"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Loading states are handled gracefully if needed",
+    "steps": [
+      "Step 1: Navigate to '/' with slow network throttling in dev tools",
+      "Step 2: Verify the page renders progressively or shows a skeleton",
+      "Step 3: Verify no layout shift (CLS) issues during loading",
+      "Step 4: Verify images have placeholder or blur effect while loading"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Copyright year in footer is current or dynamic",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Scroll to footer",
+      "Step 3: Verify the copyright year is 2024 or the current year",
+      "Step 4: Verify the copyright text includes 'Team Elsa & Jarvis' or similar",
+      "Step 5: Check the source code to see if the year is dynamically generated"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Project detail page has a back link or breadcrumb navigation",
+    "steps": [
+      "Step 1: Navigate to a project detail page via '/portfolio/[slug]'",
+      "Step 2: Verify a 'Back' link or breadcrumb is present near the top of the page",
+      "Step 3: Verify the link says 'Back to Portfolio' or similar",
+      "Step 4: Click the back link",
+      "Step 5: Verify navigation returns to '/portfolio'",
+      "Step 6: Verify the portfolio page is displayed correctly"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Site generates proper meta tags for Open Graph",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: View page source",
+      "Step 3: Verify og:title meta tag is present",
+      "Step 4: Verify og:description meta tag is present",
+      "Step 5: Navigate to a project detail page",
+      "Step 6: Verify og:title includes the project name",
+      "Step 7: Verify og:description includes the project description"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Entire application maintains visual consistency in dark mode",
+    "steps": [
+      "Step 1: Toggle to dark mode",
+      "Step 2: Navigate through all pages ('/', '/portfolio', '/resources', project detail)",
+      "Step 3: Verify consistent dark background color across all pages",
+      "Step 4: Verify consistent light text color across all pages",
+      "Step 5: Verify accent colors remain consistent in dark mode",
+      "Step 6: Verify no components appear with jarring white backgrounds in dark mode",
+      "Step 7: Take screenshots of each page for comparison"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Resources page has visually appealing category icons or indicators",
+    "steps": [
+      "Step 1: Navigate to '/resources'",
+      "Step 2: Verify category sections have icons or visual indicators",
+      "Step 3: Verify icons are appropriate for the category (e.g., robot for AI)",
+      "Step 4: Verify icons are consistently sized",
+      "Step 5: Verify icons work in both light and dark mode"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "All Shadcn UI components render without errors",
+    "steps": [
+      "Step 1: Verify Shadcn UI or headless UI components are installed",
+      "Step 2: Navigate through all pages",
+      "Step 3: Verify Button components render properly",
+      "Step 4: Verify Card components render properly",
+      "Step 5: Verify any Badge components render properly",
+      "Step 6: Check console for any component rendering errors"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Project thumbnail images have appropriate fallback",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Temporarily break an image URL in the data",
+      "Step 3: Reload the page",
+      "Step 4: Verify a placeholder or fallback image is shown",
+      "Step 5: Restore the image URL",
+      "Step 6: Verify the original image loads again"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Portfolio filter buttons have proper styling and spacing",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Locate category filter buttons",
+      "Step 3: Verify buttons have consistent padding and border-radius",
+      "Step 4: Verify inactive buttons have a subtle border or background",
+      "Step 5: Verify active/selected filter button is visually prominent",
+      "Step 6: Verify there is adequate spacing between filter buttons"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Portfolio page maintains scroll position when filter changes",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Scroll down slightly",
+      "Step 3: Apply a category filter",
+      "Step 4: Verify the page doesn't scroll back to top abruptly",
+      "Step 5: Verify the filtered results are shown in place"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Team section on home page has a descriptive heading",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Scroll to the team section",
+      "Step 3: Verify a section heading is present (e.g., 'Meet the Builders')",
+      "Step 4: Verify the heading is an appropriate HTML heading element",
+      "Step 5: Verify any introductory text about the team's mission is present"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Featured projects section on home page has a clear heading",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Scroll to the Featured Projects section",
+      "Step 3: Verify a section heading is present (e.g., 'Featured Projects')",
+      "Step 4: Verify the heading is an appropriate HTML heading element",
+      "Step 5: Verify optional subtitle or description text is present"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Image alt text is provided for all images for accessibility",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Inspect all images on the home page using browser dev tools",
+      "Step 3: Verify each image has a non-empty alt attribute",
+      "Step 4: Navigate to '/portfolio' and inspect all project card images",
+      "Step 5: Verify all thumbnail images have descriptive alt text",
+      "Step 6: Navigate to a project detail page",
+      "Step 7: Verify screenshots have alt text describing what they show"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Next.js project is initialized with TypeScript",
+    "steps": [
+      "Step 1: Verify 'tsconfig.json' exists in the project root",
+      "Step 2: Verify files use '.tsx' and '.ts' extensions",
+      "Step 3: Run 'npx tsc --noEmit' to check for type errors",
+      "Step 4: Verify no TypeScript errors are present",
+      "Step 5: Verify TypeScript strict mode or reasonable settings are configured"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Tailwind CSS is properly configured in the project",
+    "steps": [
+      "Step 1: Verify 'tailwind.config.ts' or 'tailwind.config.js' exists",
+      "Step 2: Verify the content array includes paths to all app files",
+      "Step 3: Verify 'postcss.config.js' is properly configured",
+      "Step 4: Verify Tailwind base styles are imported in the global CSS",
+      "Step 5: Navigate to '/' and verify Tailwind styles are applied"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "next-themes is properly configured and functional",
+    "steps": [
+      "Step 1: Verify 'next-themes' is listed in package.json dependencies",
+      "Step 2: Verify ThemeProvider is set up in layout.tsx",
+      "Step 3: Toggle between dark and light mode",
+      "Step 4: Verify the html element receives 'dark' class when in dark mode",
+      "Step 5: Verify the transition between modes is smooth"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Category filters on portfolio page include all categories from project data",
+    "steps": [
+      "Step 1: Open 'data/projects.json'",
+      "Step 2: List all unique category values",
+      "Step 3: Navigate to '/portfolio'",
+      "Step 4: Verify a filter button exists for each category in the data",
+      "Step 5: Verify 'All' filter is also present",
+      "Step 6: Verify clicking each category filter shows the correct projects"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Team member cards have avatar or placeholder image",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Scroll to 'Meet the Builders' section",
+      "Step 3: Verify each team member card has an avatar image or icon placeholder",
+      "Step 4: Verify the avatar is circular or has appropriate styling",
+      "Step 5: Verify the avatar is properly sized and centered above the name"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Section dividers or spacing clearly separates page sections",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Take a full-page screenshot",
+      "Step 3: Verify clear visual separation between Hero, Team, and Featured Projects",
+      "Step 4: Verify separation could be achieved by different backgrounds, borders, or whitespace",
+      "Step 5: Verify the separation doesn't feel cluttered"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "GitHub icon in footer links to a GitHub profile or organization",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Scroll to the footer",
+      "Step 3: Locate the GitHub icon/link",
+      "Step 4: Verify the href is a valid GitHub URL (starts with https://github.com/)",
+      "Step 5: Verify the link opens in a new tab"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Project categories include 'AI', 'Web', and 'Tools' as specified",
+    "steps": [
+      "Step 1: Open 'data/projects.json'",
+      "Step 2: Verify at least one project has category 'AI'",
+      "Step 3: Verify at least one project has category 'Web'",
+      "Step 4: Verify at least one project has category 'Tools'",
+      "Step 5: Navigate to '/portfolio' and verify these categories appear as filter options"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Resources page 'AI Models' category contains relevant AI resources",
+    "steps": [
+      "Step 1: Navigate to '/resources'",
+      "Step 2: Find the 'AI Models' or similar AI category",
+      "Step 3: Verify at least 2 AI-related resources are listed",
+      "Step 4: Verify each AI resource has a name, description, and link",
+      "Step 5: Verify the links point to relevant AI tool websites"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Resources page 'DevOps' category contains relevant DevOps resources",
+    "steps": [
+      "Step 1: Navigate to '/resources'",
+      "Step 2: Find the 'DevOps' or similar category",
+      "Step 3: Verify at least 2 DevOps-related resources are listed",
+      "Step 4: Verify each resource has proper details and a link",
+      "Step 5: Verify the resources are actually DevOps-related"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Resources page 'Learning' category contains relevant learning resources",
+    "steps": [
+      "Step 1: Navigate to '/resources'",
+      "Step 2: Find the 'Learning' or similar category",
+      "Step 3: Verify at least 2 learning resources are listed",
+      "Step 4: Verify each resource has proper details and a link",
+      "Step 5: Verify the resources are educational in nature"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Portfolio page has a proper page heading with attractive styling",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Take a screenshot of the page top",
+      "Step 3: Verify a visually attractive page heading is present",
+      "Step 4: Verify the heading has appropriate size and weight",
+      "Step 5: Verify the heading area has proper padding from the navbar",
+      "Step 6: Verify optional subtitle text is styled appropriately"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Resources page has a clean and organized layout",
+    "steps": [
+      "Step 1: Navigate to '/resources'",
+      "Step 2: Take a screenshot of the page",
+      "Step 3: Verify categories are clearly separated and labeled",
+      "Step 4: Verify resource items are consistently indented and spaced",
+      "Step 5: Verify the overall layout is scannable and organized",
+      "Step 6: Verify the page doesn't appear cluttered"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Project detail page scrolls smoothly through all content sections",
+    "steps": [
+      "Step 1: Navigate to a project detail page",
+      "Step 2: Verify the header section is visible at top",
+      "Step 3: Scroll to the About section",
+      "Step 4: Verify smooth scrolling to Key Features section",
+      "Step 5: Scroll to Screenshots section",
+      "Step 6: Scroll to Tech Stack section",
+      "Step 7: Verify footer is accessible at the bottom",
+      "Step 8: Verify no content is hidden or cut off"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Application performance: home page loads in under 3 seconds",
+    "steps": [
+      "Step 1: Open browser dev tools Performance tab",
+      "Step 2: Navigate to '/'",
+      "Step 3: Measure the time to interactive (TTI)",
+      "Step 4: Verify the page loads and is interactive within 3 seconds on a standard connection",
+      "Step 5: Verify no large unoptimized assets are blocking rendering"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Next.js builds generate static pages for all portfolio projects",
+    "steps": [
+      "Step 1: Run 'npm run build'",
+      "Step 2: Check the build output for '/portfolio/[slug]' pages",
+      "Step 3: Verify each project slug generates a static page at build time",
+      "Step 4: Verify the pages are pre-rendered (generateStaticParams is used)",
+      "Step 5: Test that the built pages load correctly"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "generateStaticParams is implemented for project detail pages",
+    "steps": [
+      "Step 1: Check 'app/portfolio/[slug]/page.tsx'",
+      "Step 2: Verify 'generateStaticParams' function is exported",
+      "Step 3: Verify it returns an array of slug objects from projects.json",
+      "Step 4: Run 'npm run build' and verify all project pages are pre-generated",
+      "Step 5: Verify the build doesn't fall back to server-side rendering for these pages"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Application has proper error handling for runtime errors",
+    "steps": [
+      "Step 1: Check for 'app/error.tsx' global error boundary",
+      "Step 2: Verify error boundary component is present",
+      "Step 3: Verify it shows a user-friendly error message",
+      "Step 4: Verify it provides a way to recover (retry button)"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Application has a custom 404 not found page",
+    "steps": [
+      "Step 1: Check for 'app/not-found.tsx'",
+      "Step 2: Navigate to a non-existent URL (e.g., '/this-page-does-not-exist')",
+      "Step 3: Verify a custom 404 page is shown",
+      "Step 4: Verify the 404 page includes navigation back to home",
+      "Step 5: Verify the 404 page is styled consistently with the rest of the app"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "404 page has a friendly and on-brand design",
+    "steps": [
+      "Step 1: Navigate to '/page-that-does-not-exist'",
+      "Step 2: Take a screenshot",
+      "Step 3: Verify the 404 page uses the same color scheme as the rest of the site",
+      "Step 4: Verify the error message is friendly and informative",
+      "Step 5: Verify the navbar and footer are present",
+      "Step 6: Verify a link back to home is prominent"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Social media links in footer have proper rel attributes",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Scroll to footer",
+      "Step 3: Inspect the GitHub, Twitter, and LinkedIn links",
+      "Step 4: Verify each external link has rel='noopener noreferrer'",
+      "Step 5: Verify each link has target='_blank'",
+      "Step 6: Verify these attributes are present for security reasons"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Portfolio page search is debounced for performance",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Open browser dev tools Performance/Network tab",
+      "Step 3: Type rapidly in the search box",
+      "Step 4: Verify filtering doesn't happen on every keystroke immediately (slight debounce)",
+      "Step 5: Verify final search results are accurate",
+      "Step 6: Verify no performance issues from rapid typing"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Focus indicators are visible for keyboard navigation accessibility",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Press Tab to navigate through the page",
+      "Step 3: Verify each focused element has a visible focus ring or outline",
+      "Step 4: Verify the focus indicator contrasts well with the background",
+      "Step 5: Test in both light and dark mode",
+      "Step 6: Verify focus indicators follow the brand color scheme"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "All forms and inputs have proper HTML attributes and labels",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Inspect the search input element",
+      "Step 3: Verify the input has an id attribute",
+      "Step 4: Verify a label or aria-label is associated with the input",
+      "Step 5: Verify placeholder text is descriptive",
+      "Step 6: Verify the input type is 'text' or 'search'"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Application works without JavaScript enabled (SSR content is visible)",
+    "steps": [
+      "Step 1: Disable JavaScript in browser settings",
+      "Step 2: Navigate to '/'",
+      "Step 3: Verify the hero section content is visible (SSR rendered)",
+      "Step 4: Navigate to '/portfolio'",
+      "Step 5: Verify project cards are visible (SSR rendered)",
+      "Step 6: Re-enable JavaScript",
+      "Step 7: Verify the app functions normally again"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Project data includes at least 5 projects total",
+    "steps": [
+      "Step 1: Open 'data/projects.json'",
+      "Step 2: Count the total number of project objects",
+      "Step 3: Verify there are at least 5 projects",
+      "Step 4: Navigate to '/portfolio'",
+      "Step 5: Verify all projects are displayed in the grid"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Resources data includes at least 10 resources total",
+    "steps": [
+      "Step 1: Open 'data/resources.json'",
+      "Step 2: Count the total number of resource objects",
+      "Step 3: Verify there are at least 10 resources",
+      "Step 4: Navigate to '/resources'",
+      "Step 5: Verify all resources are displayed on the page"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Dark mode transition does not cause FOUC (Flash of Unstyled Content)",
+    "steps": [
+      "Step 1: Set preferred color scheme to dark in OS settings",
+      "Step 2: Navigate to '/'",
+      "Step 3: Verify the page loads directly in dark mode without flashing white first",
+      "Step 4: Refresh the page multiple times",
+      "Step 5: Verify no white flash occurs on any reload",
+      "Step 6: Check that suppressHydrationWarning is used appropriately"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Back button from project detail works correctly",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Click 'View Details' on a project",
+      "Step 3: Use the browser back button",
+      "Step 4: Verify return to '/portfolio'",
+      "Step 5: Verify the portfolio page shows the same state as before clicking View Details"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Project detail page links section buttons are properly styled",
+    "steps": [
+      "Step 1: Navigate to a project detail page",
+      "Step 2: Locate the 'View Code' and 'Live Demo' buttons",
+      "Step 3: Verify both buttons are visually distinct (different colors or styles)",
+      "Step 4: Verify buttons include icons (GitHub icon for View Code, external link for Demo)",
+      "Step 5: Verify buttons are properly sized for touch targets (min 44px height)"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Tech stack in project details matches tags shown on portfolio card",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Note the tech tags on a specific project card",
+      "Step 3: Click 'View Details' on that project",
+      "Step 4: Navigate to the Tech Stack section on the detail page",
+      "Step 5: Verify all technologies from the card tags are listed in the detail section",
+      "Step 6: Verify the detail section may show more detailed tech stack info"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Featured projects on home page show ElsaPerformance",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Scroll to the Featured Projects section",
+      "Step 3: Verify 'ElsaPerformance' project card is present",
+      "Step 4: Verify clicking the ElsaPerformance card/button navigates to its detail page",
+      "Step 5: Verify the detail page shows correct ElsaPerformance information"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Navbar is sticky/fixed at the top during page scroll",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Scroll down the page",
+      "Step 3: Verify the navbar remains visible at the top of the viewport while scrolling",
+      "Step 4: Verify the navbar doesn't scroll away with the page content",
+      "Step 5: Verify the navbar doesn't overlap any content awkwardly while sticky"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Sticky navbar has subtle shadow or border when scrolled",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Scroll down past the hero section",
+      "Step 3: Verify the sticky navbar has a subtle shadow or border below it",
+      "Step 4: Verify this shadow/border differentiates the navbar from page content",
+      "Step 5: Verify the effect works in both light and dark mode"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "All data-fetching is done at the component level using async/await",
+    "steps": [
+      "Step 1: Check page components (page.tsx files) for data fetching patterns",
+      "Step 2: Verify async function or server component pattern is used",
+      "Step 3: Verify projects.json is imported or fetched at build time",
+      "Step 4: Verify no client-side API calls for local data",
+      "Step 5: Verify the pattern is consistent across all pages"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Project card 'View Details' button uses Next.js Link for client-side navigation",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Inspect the 'View Details' button element in developer tools",
+      "Step 3: Verify it renders as an <a> tag with href pointing to the project slug",
+      "Step 4: Verify clicking it performs client-side navigation (no full page reload)",
+      "Step 5: Verify the navigation is fast (Next.js Link prefetching)"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Repository is set up with proper .gitignore for Next.js",
+    "steps": [
+      "Step 1: Check that '.gitignore' file exists in the root",
+      "Step 2: Verify 'node_modules' is in .gitignore",
+      "Step 3: Verify '.next' build directory is in .gitignore",
+      "Step 4: Verify '.env.local' and similar env files are in .gitignore",
+      "Step 5: Verify 'npm-debug.log' is in .gitignore"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "package.json has correct Next.js scripts defined",
+    "steps": [
+      "Step 1: Check 'package.json' for scripts section",
+      "Step 2: Verify 'dev' script runs 'next dev'",
+      "Step 3: Verify 'build' script runs 'next build'",
+      "Step 4: Verify 'start' script runs 'next start'",
+      "Step 5: Verify 'lint' script runs 'next lint' or ESLint"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "ESLint is configured and passes without errors",
+    "steps": [
+      "Step 1: Verify '.eslintrc.json' or 'eslint.config.js' exists",
+      "Step 2: Run 'npm run lint'",
+      "Step 3: Verify no ESLint errors are reported",
+      "Step 4: Verify the lint configuration extends Next.js recommended rules",
+      "Step 5: Fix any linting issues if present"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Portfolio page category filter buttons have a smooth hover animation",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Hover over each category filter button",
+      "Step 3: Verify a smooth color transition occurs on hover",
+      "Step 4: Verify the hover state is distinct from the active/selected state",
+      "Step 5: Verify transitions use CSS transitions (not instant switches)"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Home page is the root page and renders at '/'",
+    "steps": [
+      "Step 1: Start the development server",
+      "Step 2: Navigate to 'http://localhost:3000'",
+      "Step 3: Verify the home page content is displayed",
+      "Step 4: Verify the page shows the hero section, team section, and featured projects",
+      "Step 5: Verify the URL remains '/' or 'http://localhost:3000/'"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Project data images use placeholder images appropriately",
+    "steps": [
+      "Step 1: Check 'data/projects.json' for image/thumbnail URLs",
+      "Step 2: Verify image URLs are valid (local paths or placeholders)",
+      "Step 3: Navigate to '/portfolio'",
+      "Step 4: Verify all project card images load without errors",
+      "Step 5: Navigate to project detail pages",
+      "Step 6: Verify screenshot images load without errors"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Team section shows team mission text",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Scroll to the team section",
+      "Step 3: Verify a mission statement or description about the team is present",
+      "Step 4: Verify the text describes what 'Team Elsa & Jarvis' does",
+      "Step 5: Verify the text is positioned before or above the team member cards"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Team member card in team.json is reflected dynamically on home page",
+    "steps": [
+      "Step 1: Open 'data/team.json' and count team members",
+      "Step 2: Navigate to '/'",
+      "Step 3: Count team member cards in the 'Meet the Builders' section",
+      "Step 4: Verify the count matches the number in team.json",
+      "Step 5: Verify the cards are generated dynamically from the JSON data"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Project card images have consistent height in the grid",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Observe the project card grid",
+      "Step 3: Verify all card images have the same height",
+      "Step 4: Verify image containers use aspect ratio or fixed height",
+      "Step 5: Verify images use object-fit: cover to maintain consistent display",
+      "Step 6: Verify no cards have taller or shorter image areas than others"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Links in Navbar use Next.js Link component for prefetching",
+    "steps": [
+      "Step 1: Inspect the Navbar source code",
+      "Step 2: Verify nav links use Next.js <Link> component",
+      "Step 3: Verify the href values match the expected routes",
+      "Step 4: Navigate between pages and verify fast client-side transitions",
+      "Step 5: Verify the Link component prevents full page reloads"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Portfolio page default shows 'All' category filter selected",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Verify all projects are displayed by default",
+      "Step 3: Verify the 'All' filter button is visually selected/active",
+      "Step 4: Verify no specific category filter is applied on initial load"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Project tech stack tags in portfolio grid are scrollable if too many",
+    "steps": [
+      "Step 1: Ensure a project in data has 5+ tech stack tags",
+      "Step 2: Navigate to '/portfolio'",
+      "Step 3: Find the card with many tech tags",
+      "Step 4: Verify tags wrap properly or are limited to prevent card overflow",
+      "Step 5: Verify the card layout is not broken by many tags"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Overall design tone is professional, futuristic, and clean",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Take a full-page screenshot",
+      "Step 3: Verify the design feels professional (no clutter, clean typography)",
+      "Step 4: Verify the design feels futuristic (modern fonts, indigo/cyan colors)",
+      "Step 5: Navigate through all pages and assess overall visual consistency",
+      "Step 6: Verify no page appears unpolished or out of style",
+      "Step 7: Verify the site looks production-ready"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "All component files exist as specified in the project structure",
+    "steps": [
+      "Step 1: Verify 'components/Navbar.tsx' exists",
+      "Step 2: Verify 'components/Footer.tsx' exists",
+      "Step 3: Verify 'components/ThemeToggle.tsx' exists",
+      "Step 4: Verify 'components/ProjectCard.tsx' exists",
+      "Step 5: Verify 'components/ui/' directory exists with button/card components"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "All page files exist as specified in the app router structure",
+    "steps": [
+      "Step 1: Verify 'app/page.tsx' exists (Home page)",
+      "Step 2: Verify 'app/layout.tsx' exists (Root layout)",
+      "Step 3: Verify 'app/portfolio/page.tsx' exists (Portfolio list)",
+      "Step 4: Verify 'app/portfolio/[slug]/page.tsx' exists (Project details)",
+      "Step 5: Verify 'app/resources/page.tsx' exists (Resources page)"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "All data files exist as specified",
+    "steps": [
+      "Step 1: Verify 'data/projects.json' exists",
+      "Step 2: Verify 'data/resources.json' exists",
+      "Step 3: Verify 'data/team.json' exists",
+      "Step 4: Verify each JSON file is valid JSON (no syntax errors)",
+      "Step 5: Verify each file has at least minimal data to render pages"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Full end-to-end portfolio browsing flow: from home to project detail and back",
+    "steps": [
+      "Step 1: Navigate to the home page '/'",
+      "Step 2: Verify hero section is visible with correct headline",
+      "Step 3: Click the 'View Our Work' CTA button in the hero",
+      "Step 4: Verify navigation to '/portfolio'",
+      "Step 5: Verify project grid is displayed with multiple cards",
+      "Step 6: Type 'Elsa' in the search box",
+      "Step 7: Verify filtered results show only Elsa-related projects",
+      "Step 8: Clear the search box",
+      "Step 9: Verify all projects are displayed again",
+      "Step 10: Click 'View Details' on the first project card",
+      "Step 11: Verify navigation to '/portfolio/[slug]'",
+      "Step 12: Verify project title, status badge, and date are visible",
+      "Step 13: Verify About section has content",
+      "Step 14: Verify Key Features section has bullet points",
+      "Step 15: Click 'Back to Portfolio' link",
+      "Step 16: Verify return to '/portfolio'",
+      "Step 17: Verify portfolio page still shows all projects"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Full dark mode verification across all pages and components",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Click the theme toggle to enable dark mode",
+      "Step 3: Verify navbar has dark background and readable links",
+      "Step 4: Verify hero section text is visible on dark background",
+      "Step 5: Verify team member cards have dark card background",
+      "Step 6: Verify featured project cards have dark background",
+      "Step 7: Scroll to footer and verify dark styling",
+      "Step 8: Navigate to '/portfolio'",
+      "Step 9: Verify portfolio page heading is readable in dark mode",
+      "Step 10: Verify project cards have dark backgrounds",
+      "Step 11: Verify tech tags are readable in dark mode",
+      "Step 12: Click 'View Details' on a project",
+      "Step 13: Verify project detail page renders properly in dark mode",
+      "Step 14: Navigate to '/resources'",
+      "Step 15: Verify resource categories and items are readable in dark mode",
+      "Step 16: Toggle back to light mode",
+      "Step 17: Verify all pages return to light styling"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Complete portfolio filtering: combining search and category filters",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Note the total number of projects displayed",
+      "Step 3: Click the 'AI' category filter button",
+      "Step 4: Verify only AI projects are shown",
+      "Step 5: Note the count of AI projects",
+      "Step 6: Type a keyword in the search box while AI filter is active",
+      "Step 7: Verify results narrow down further",
+      "Step 8: Clear the search box",
+      "Step 9: Verify AI-filtered projects return",
+      "Step 10: Click 'All' filter",
+      "Step 11: Verify all projects are shown again",
+      "Step 12: Click 'Web' category filter",
+      "Step 13: Verify only Web projects are shown",
+      "Step 14: Click 'Tools' category filter",
+      "Step 15: Verify only Tools projects are shown",
+      "Step 16: Click 'All' again",
+      "Step 17: Verify full project count is restored"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Complete responsive layout check at multiple breakpoints",
+    "steps": [
+      "Step 1: Set viewport to 375px (mobile) and navigate to '/'",
+      "Step 2: Verify hero text stacks vertically and is readable",
+      "Step 3: Verify navbar collapses to mobile menu",
+      "Step 4: Open mobile menu and verify all links are visible",
+      "Step 5: Close mobile menu",
+      "Step 6: Scroll down to verify team cards stack to single column",
+      "Step 7: Navigate to '/portfolio' at 375px",
+      "Step 8: Verify project cards display in single column",
+      "Step 9: Set viewport to 768px (tablet)",
+      "Step 10: Verify project cards display in 2-column grid",
+      "Step 11: Verify navbar is visible (not collapsed) at tablet",
+      "Step 12: Set viewport to 1280px (desktop)",
+      "Step 13: Verify project cards display in 3-column grid",
+      "Step 14: Verify all navigation links are visible in navbar",
+      "Step 15: Navigate to a project detail page at each breakpoint",
+      "Step 16: Verify content is readable at all breakpoints"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Complete accessibility check across all pages",
+    "steps": [
+      "Step 1: Navigate to '/' and open browser accessibility tools",
+      "Step 2: Verify no critical accessibility violations are reported",
+      "Step 3: Tab through the entire home page verifying focus indicators are visible",
+      "Step 4: Navigate to '/portfolio' using Tab key from the navbar",
+      "Step 5: Tab through all project cards verifying each View Details button is focusable",
+      "Step 6: Verify all images have non-empty alt text",
+      "Step 7: Navigate to '/resources' and Tab through all resource links",
+      "Step 8: Verify all external links have aria-label attributes",
+      "Step 9: Verify the search input on portfolio page has an associated label",
+      "Step 10: Verify the theme toggle button has an aria-label",
+      "Step 11: Check color contrast ratios for text on backgrounds",
+      "Step 12: Verify heading hierarchy is correct (h1 > h2 > h3) on each page",
+      "Step 13: Verify social icon links in footer have aria-labels",
+      "Step 14: Test keyboard navigation through the mobile menu"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Full project detail page content verification for ElsaPerformance",
+    "steps": [
+      "Step 1: Navigate to the ElsaPerformance project detail page",
+      "Step 2: Verify the page title shows 'ElsaPerformance'",
+      "Step 3: Verify the project status badge is displayed (Active/Beta)",
+      "Step 4: Verify the project date is shown",
+      "Step 5: Verify the 'View Code' button is present with GitHub link",
+      "Step 6: Verify the 'View Code' link opens in a new tab",
+      "Step 7: Verify the 'Live Demo' button is present",
+      "Step 8: Scroll to the About section",
+      "Step 9: Verify a detailed project description is present",
+      "Step 10: Scroll to Key Features",
+      "Step 11: Verify at least 3 key features are listed as bullet points",
+      "Step 12: Scroll to Screenshots section",
+      "Step 13: Verify at least one screenshot image is displayed",
+      "Step 14: Scroll to Tech Stack section",
+      "Step 15: Verify relevant technologies are listed (Python, etc.)",
+      "Step 16: Click 'Back to Portfolio' and verify return to portfolio page"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Complete visual design audit of home page in light and dark mode",
+    "steps": [
+      "Step 1: Navigate to '/' in light mode",
+      "Step 2: Take a screenshot of the full page",
+      "Step 3: Verify hero section uses deep blue/indigo colors",
+      "Step 4: Verify CTA button uses cyan/teal accent",
+      "Step 5: Verify background is white or gray-50",
+      "Step 6: Verify Inter or Geist Sans font is applied",
+      "Step 7: Verify team member cards have clean, rounded styling",
+      "Step 8: Verify featured project cards are visually consistent",
+      "Step 9: Verify footer is clearly separated from content",
+      "Step 10: Toggle to dark mode",
+      "Step 11: Take a screenshot of the full page in dark mode",
+      "Step 12: Verify background changes to slate-900/950",
+      "Step 13: Verify all text becomes light-colored",
+      "Step 14: Verify accent colors remain consistent in dark mode",
+      "Step 15: Verify no white flash or unstyled elements in dark mode",
+      "Step 16: Verify overall design feels professional and futuristic in both modes"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Complete navigation flow testing for all navbar links in both themes",
+    "steps": [
+      "Step 1: Navigate to '/' in light mode",
+      "Step 2: Verify 'Home' link is active/highlighted",
+      "Step 3: Click 'Portfolio' in the navbar",
+      "Step 4: Verify URL is '/portfolio' and 'Portfolio' link is now active",
+      "Step 5: Click 'Resources' in the navbar",
+      "Step 6: Verify URL is '/resources' and 'Resources' link is now active",
+      "Step 7: Click the logo 'Team Elsa & Jarvis'",
+      "Step 8: Verify URL returns to '/'",
+      "Step 9: Toggle to dark mode",
+      "Step 10: Verify all navbar links are still readable in dark mode",
+      "Step 11: Navigate to '/portfolio' in dark mode",
+      "Step 12: Verify 'Portfolio' link shows active state in dark mode",
+      "Step 13: Navigate to a project detail page",
+      "Step 14: Verify 'Portfolio' link still shows as active or parent active on detail page",
+      "Step 15: Toggle back to light mode and verify navbar restores correctly"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Complete resources page content and structure verification",
+    "steps": [
+      "Step 1: Navigate to '/resources'",
+      "Step 2: Verify page heading is displayed",
+      "Step 3: Verify an intro paragraph about the resources section is present",
+      "Step 4: Locate the 'AI Models' category section",
+      "Step 5: Verify at least 2 AI resources are listed with name, description, and link",
+      "Step 6: Locate the 'DevOps' category section",
+      "Step 7: Verify at least 2 DevOps resources are listed with details",
+      "Step 8: Locate the 'Learning' category section",
+      "Step 9: Verify at least 2 learning resources are listed with details",
+      "Step 10: Click on a resource link",
+      "Step 11: Verify the link opens in a new tab",
+      "Step 12: Verify each resource link has rel='noopener noreferrer'",
+      "Step 13: Scroll to the bottom of the resources page",
+      "Step 14: Verify the footer is present and properly styled",
+      "Step 15: Toggle to dark mode and verify all resources are readable"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Complete build and deployment readiness check",
+    "steps": [
+      "Step 1: Run 'npm run lint' and verify no ESLint errors",
+      "Step 2: Run 'npx tsc --noEmit' and verify no TypeScript errors",
+      "Step 3: Run 'npm run build' and verify the build completes successfully",
+      "Step 4: Check build output for any warnings about missing images",
+      "Step 5: Verify all '/portfolio/[slug]' pages are statically generated",
+      "Step 6: Run 'npm run start' to serve the production build",
+      "Step 7: Navigate to 'http://localhost:3000' with production build",
+      "Step 8: Verify home page loads correctly from production build",
+      "Step 9: Navigate to '/portfolio' in production build",
+      "Step 10: Verify portfolio page and search work in production",
+      "Step 11: Navigate to a project detail page in production",
+      "Step 12: Verify project detail page loads correctly",
+      "Step 13: Navigate to '/resources' in production",
+      "Step 14: Verify resources page loads correctly",
+      "Step 15: Test dark mode toggle in production build",
+      "Step 16: Verify theme persistence after page refresh in production"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Complete data layer verification: JSON files powering all pages",
+    "steps": [
+      "Step 1: Open 'data/projects.json' and verify it has valid JSON",
+      "Step 2: Count projects and verify at least 5 exist",
+      "Step 3: Verify each project has: title, slug, description, techStack, status, githubUrl, category, date, features, screenshots",
+      "Step 4: Open 'data/resources.json' and verify it has valid JSON",
+      "Step 5: Count resources and verify at least 10 exist",
+      "Step 6: Verify each resource has: name, description, url, category",
+      "Step 7: Open 'data/team.json' and verify it has valid JSON",
+      "Step 8: Verify team.json has Jarvis and Elsa entries",
+      "Step 9: Verify each team member has: name, role, bio/description",
+      "Step 10: Navigate to '/' and verify team data matches team.json",
+      "Step 11: Navigate to '/portfolio' and verify all projects from projects.json appear",
+      "Step 12: Navigate to '/resources' and verify all resources from resources.json appear",
+      "Step 13: Navigate to a project detail page and verify all fields render",
+      "Step 14: Verify the 'featured' flag in projects.json controls home page display"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Complete portfolio page visual audit including cards, filters, and grid",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Take a screenshot of the top section with heading and filters",
+      "Step 3: Verify page heading is visually prominent with proper font size",
+      "Step 4: Verify filter buttons are consistently styled with proper spacing",
+      "Step 5: Verify active filter button is visually distinct from inactive ones",
+      "Step 6: Take a screenshot of the project grid",
+      "Step 7: Verify cards have consistent height and width in the grid",
+      "Step 8: Verify card images all have the same aspect ratio",
+      "Step 9: Verify card text (title, description) is properly aligned",
+      "Step 10: Verify tech tags have badge styling with proper padding",
+      "Step 11: Verify 'View Details' button is consistently styled across all cards",
+      "Step 12: Hover over a card and verify smooth hover animation",
+      "Step 13: Verify the search input is prominently styled",
+      "Step 14: Toggle to dark mode and take another screenshot",
+      "Step 15: Verify all cards adapt properly to dark mode",
+      "Step 16: Verify no layout breaks or overflows in dark mode"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Complete SEO and metadata verification for all pages",
+    "steps": [
+      "Step 1: Navigate to '/' and view page source",
+      "Step 2: Verify <title> tag contains site name",
+      "Step 3: Verify og:title meta tag is present",
+      "Step 4: Verify og:description meta tag is present",
+      "Step 5: Navigate to '/portfolio' and view page source",
+      "Step 6: Verify <title> contains 'Portfolio' and site name",
+      "Step 7: Navigate to a project detail page and view page source",
+      "Step 8: Verify <title> contains the project name",
+      "Step 9: Verify og:title contains the project name",
+      "Step 10: Verify og:description contains a project summary",
+      "Step 11: Navigate to '/resources' and view page source",
+      "Step 12: Verify <title> contains 'Resources'",
+      "Step 13: Verify canonical URL meta tag is present",
+      "Step 14: Verify meta robots tag allows indexing (no noindex)",
+      "Step 15: Verify the site generates a valid sitemap or has appropriate meta tags"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Complete home page scroll and section interaction test",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Verify hero section is visible without scrolling (above the fold)",
+      "Step 3: Verify the hero headline and CTA button are visible",
+      "Step 4: Scroll down and verify Team Intro section appears",
+      "Step 5: Verify team mission text is readable",
+      "Step 6: Continue scrolling to 'Meet the Builders' section",
+      "Step 7: Verify Jarvis and Elsa cards are displayed",
+      "Step 8: Verify each card shows name and role",
+      "Step 9: Continue scrolling to Featured Projects section",
+      "Step 10: Verify section heading 'Featured Projects' is visible",
+      "Step 11: Verify 2-3 featured project cards are shown",
+      "Step 12: Click on a featured project to navigate to detail page",
+      "Step 13: Verify correct project detail page loads",
+      "Step 14: Return to home page using navbar",
+      "Step 15: Verify page scrolls back to top on navigation",
+      "Step 16: Scroll to footer and verify copyright and social links"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Complete project detail page visual audit",
+    "steps": [
+      "Step 1: Navigate to the ElsaPerformance project detail page",
+      "Step 2: Take a screenshot of the page header area",
+      "Step 3: Verify project title is large and visually prominent",
+      "Step 4: Verify status badge uses color coding (green for Active)",
+      "Step 5: Verify date is displayed in smaller font below title",
+      "Step 6: Verify 'View Code' and 'Live Demo' buttons are properly styled",
+      "Step 7: Verify buttons have icons and proper padding",
+      "Step 8: Scroll to About section and verify clean typography",
+      "Step 9: Scroll to Key Features and verify bullet point styling",
+      "Step 10: Scroll to Screenshots and verify consistent image aspect ratios",
+      "Step 11: Scroll to Tech Stack and verify tag badge styling",
+      "Step 12: Toggle to dark mode and take another screenshot",
+      "Step 13: Verify all sections are readable in dark mode",
+      "Step 14: Verify status badge adapts to dark mode",
+      "Step 15: Verify buttons are visible in dark mode",
+      "Step 16: Check that the back link is clearly visible and styled consistently"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Complete error handling and edge case validation",
+    "steps": [
+      "Step 1: Navigate to '/portfolio/nonexistent-project-slug'",
+      "Step 2: Verify a 404 or not-found page is shown",
+      "Step 3: Verify the error page has a friendly message",
+      "Step 4: Verify a link back to home or portfolio is present",
+      "Step 5: Navigate to '/completely-invalid-route'",
+      "Step 6: Verify 404 page is shown consistently",
+      "Step 7: Navigate to '/portfolio' and empty the search to verify all results return",
+      "Step 8: Type a very long string in the search box",
+      "Step 9: Verify the search input doesn't break the layout",
+      "Step 10: Navigate to '/portfolio' with special characters in URL",
+      "Step 11: Verify the app handles it gracefully",
+      "Step 12: Disable network and reload the page",
+      "Step 13: Verify an appropriate error or offline message is shown",
+      "Step 14: Re-enable network and verify page loads normally",
+      "Step 15: Navigate to all pages and verify no uncaught JavaScript exceptions in console"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Complete theme toggle lifecycle with localStorage persistence",
+    "steps": [
+      "Step 1: Open developer tools and clear localStorage",
+      "Step 2: Navigate to '/'",
+      "Step 3: Verify default theme is applied (likely light mode)",
+      "Step 4: Click theme toggle to switch to dark mode",
+      "Step 5: Open localStorage in developer tools",
+      "Step 6: Verify 'theme' key is stored as 'dark' in localStorage",
+      "Step 7: Refresh the page",
+      "Step 8: Verify dark mode persists after refresh",
+      "Step 9: Navigate to '/portfolio' without toggling",
+      "Step 10: Verify dark mode is still active on portfolio page",
+      "Step 11: Click theme toggle to switch back to light mode",
+      "Step 12: Verify localStorage shows 'theme' as 'light'",
+      "Step 13: Close and reopen the browser tab",
+      "Step 14: Navigate to '/'",
+      "Step 15: Verify light mode is applied from persisted preference",
+      "Step 16: Verify no FOUC (Flash of Unstyled Content) on initial load"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Complete Next.js App Router configuration verification",
+    "steps": [
+      "Step 1: Verify 'app/layout.tsx' exists with proper TypeScript",
+      "Step 2: Verify layout.tsx exports a default RootLayout function",
+      "Step 3: Verify layout.tsx includes ThemeProvider from next-themes",
+      "Step 4: Verify layout.tsx includes Navbar and Footer components",
+      "Step 5: Verify layout.tsx has proper metadata export for SEO",
+      "Step 6: Verify 'app/page.tsx' exists for the home route",
+      "Step 7: Verify 'app/portfolio/page.tsx' exists for portfolio list",
+      "Step 8: Verify 'app/portfolio/[slug]/page.tsx' exists for dynamic routes",
+      "Step 9: Verify 'app/resources/page.tsx' exists",
+      "Step 10: Verify 'app/not-found.tsx' exists for 404 handling",
+      "Step 11: Verify each page component is exported as default",
+      "Step 12: Verify the dynamic route page uses 'params' prop correctly",
+      "Step 13: Verify generateStaticParams is exported from the dynamic page",
+      "Step 14: Run the dev server and verify all routes respond correctly",
+      "Step 15: Verify no server-side errors in the terminal for any route"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Complete component architecture verification",
+    "steps": [
+      "Step 1: Verify 'components/Navbar.tsx' exists and exports default component",
+      "Step 2: Verify Navbar uses Next.js Link for all navigation links",
+      "Step 3: Verify Navbar includes ThemeToggle component",
+      "Step 4: Verify Navbar has mobile responsive behavior",
+      "Step 5: Verify 'components/Footer.tsx' exists and exports default component",
+      "Step 6: Verify Footer includes social links with proper icons",
+      "Step 7: Verify 'components/ThemeToggle.tsx' exists and exports default component",
+      "Step 8: Verify ThemeToggle uses useTheme hook from next-themes",
+      "Step 9: Verify 'components/ProjectCard.tsx' exists and exports default component",
+      "Step 10: Verify ProjectCard accepts a project prop with proper TypeScript typing",
+      "Step 11: Verify ProjectCard renders all required fields (title, description, tags, button)",
+      "Step 12: Verify 'components/ui/' directory has button and card components",
+      "Step 13: Navigate through the entire app and verify all components render",
+      "Step 14: Check browser console for any component rendering warnings or errors"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Complete typography and spacing system audit",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Verify the main hero headline (h1) is the largest text on the page",
+      "Step 3: Verify section headings (h2) are appropriately sized below h1",
+      "Step 4: Verify body text has comfortable line-height (1.5-1.8)",
+      "Step 5: Verify paragraph text uses appropriate font size (16px or larger)",
+      "Step 6: Navigate to '/portfolio' and verify page heading hierarchy",
+      "Step 7: Verify project card titles are medium-sized and bold",
+      "Step 8: Verify description text is smaller and lighter than titles",
+      "Step 9: Navigate to a project detail page",
+      "Step 10: Verify About section body text is well-spaced and readable",
+      "Step 11: Verify Key Features list items have proper line spacing",
+      "Step 12: Navigate to '/resources' and verify category heading size",
+      "Step 13: Verify resource item name vs description font size hierarchy",
+      "Step 14: Verify the font is consistently Inter or Geist Sans throughout",
+      "Step 15: Verify no text is too small (less than 12px) to be readable"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Complete performance and optimization audit",
+    "steps": [
+      "Step 1: Open browser DevTools Performance tab",
+      "Step 2: Navigate to '/' and record performance",
+      "Step 3: Verify Time to First Contentful Paint is under 2 seconds",
+      "Step 4: Verify Largest Contentful Paint is under 3 seconds",
+      "Step 5: Check Network tab for unnecessary large assets",
+      "Step 6: Verify images are served in WebP or modern format where supported",
+      "Step 7: Verify no render-blocking scripts are present",
+      "Step 8: Navigate to '/portfolio' and measure load time",
+      "Step 9: Verify project card images use lazy loading",
+      "Step 10: Check that Next.js Image component is used for automatic optimization",
+      "Step 11: Navigate to a project detail page",
+      "Step 12: Verify screenshot images load lazily below the fold",
+      "Step 13: Run Lighthouse audit on the home page",
+      "Step 14: Verify Performance score is above 80",
+      "Step 15: Verify Accessibility score is above 90",
+      "Step 16: Verify Best Practices score is above 80"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Complete footer functionality and content verification",
+    "steps": [
+      "Step 1: Navigate to '/'",
+      "Step 2: Scroll to the footer",
+      "Step 3: Verify copyright text is present with year and team name",
+      "Step 4: Verify GitHub icon/link is present in footer",
+      "Step 5: Inspect GitHub link and verify href points to github.com URL",
+      "Step 6: Verify GitHub link has target='_blank'",
+      "Step 7: Verify GitHub link has rel='noopener noreferrer'",
+      "Step 8: Verify Twitter/X icon/link is present in footer",
+      "Step 9: Inspect Twitter link and verify href is valid",
+      "Step 10: Verify LinkedIn icon/link is present",
+      "Step 11: Inspect LinkedIn link and verify href is valid",
+      "Step 12: Verify all social icons have aria-label attributes",
+      "Step 13: Navigate to '/portfolio' and verify same footer is present",
+      "Step 14: Navigate to '/resources' and verify footer is consistent",
+      "Step 15: Toggle dark mode and verify footer adapts correctly"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Complete color palette and brand consistency audit",
+    "steps": [
+      "Step 1: Navigate to '/' in light mode",
+      "Step 2: Inspect primary color using browser dev tools on nav or hero",
+      "Step 3: Verify primary color is in the indigo/deep blue range",
+      "Step 4: Locate accent-colored elements (buttons, highlights)",
+      "Step 5: Verify accent color is cyan or teal",
+      "Step 6: Verify background is white or gray-50",
+      "Step 7: Verify text color is dark (gray-900 or similar) for readability",
+      "Step 8: Toggle to dark mode",
+      "Step 9: Verify background is slate-900 or slate-950",
+      "Step 10: Verify text is light-colored (white or gray-100)",
+      "Step 11: Verify primary indigo/blue color is maintained in dark mode",
+      "Step 12: Verify accent cyan/teal color is maintained in dark mode",
+      "Step 13: Navigate through all pages verifying color consistency",
+      "Step 14: Verify status badges use semantically appropriate colors",
+      "Step 15: Verify tech tags use consistent colors throughout the app"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Complete project detail page interaction and navigation test",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Click View Details on the first project",
+      "Step 3: Verify URL matches '/portfolio/[slug]' pattern",
+      "Step 4: Scroll through the entire page to see all sections",
+      "Step 5: Verify Header: title, date, status badge are visible",
+      "Step 6: Verify Links: View Code and Live Demo buttons are present",
+      "Step 7: Hover over 'View Code' and verify cursor is pointer",
+      "Step 8: Verify 'View Code' href contains github.com",
+      "Step 9: Verify About section has paragraph text",
+      "Step 10: Verify Key Features section has at least 3 items",
+      "Step 11: Verify Screenshots section shows images or placeholders",
+      "Step 12: Verify Tech Stack section lists technologies",
+      "Step 13: Click the Back to Portfolio link",
+      "Step 14: Verify return to '/portfolio'",
+      "Step 15: Click View Details on a different project",
+      "Step 16: Verify different project data is shown on the new detail page",
+      "Step 17: Verify all sections are populated with project-specific data"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Complete TypeScript type safety verification for data models",
+    "steps": [
+      "Step 1: Check for TypeScript type definitions file (types.ts or similar)",
+      "Step 2: Verify Project interface has: id/slug (string), title (string), description (string), techStack (string[]), status (string), githubUrl (string), category (string), date (string), features (string[]), screenshots (string[])",
+      "Step 3: Verify Resource interface has: name (string), description (string), url (string), category (string)",
+      "Step 4: Verify TeamMember interface has: name (string), role (string), bio (string)",
+      "Step 5: Open ProjectCard.tsx and verify it uses the Project type",
+      "Step 6: Verify ProjectCard props are properly typed",
+      "Step 7: Open portfolio/page.tsx and verify it imports project data with types",
+      "Step 8: Open portfolio/[slug]/page.tsx and verify params type",
+      "Step 9: Run 'npx tsc --noEmit'",
+      "Step 10: Verify zero TypeScript errors are reported",
+      "Step 11: Verify no 'any' types are used without justification",
+      "Step 12: Verify optional fields are properly marked with '?'"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Complete mobile user experience audit",
+    "steps": [
+      "Step 1: Set viewport to 375px (iPhone SE) and navigate to '/'",
+      "Step 2: Take a screenshot of the home page",
+      "Step 3: Verify hero text is readable without horizontal scroll",
+      "Step 4: Verify CTA button is full-width or properly sized for mobile",
+      "Step 5: Scroll down to verify team cards stack vertically",
+      "Step 6: Verify featured projects stack vertically on mobile",
+      "Step 7: Navigate to '/portfolio' on mobile",
+      "Step 8: Take a screenshot of the portfolio page",
+      "Step 9: Verify project cards take full width on mobile",
+      "Step 10: Verify filter buttons don't overflow on mobile (wrap or scroll)",
+      "Step 11: Verify search input is full-width on mobile",
+      "Step 12: Navigate to a project detail page on mobile",
+      "Step 13: Verify detail page content is readable without horizontal scroll",
+      "Step 14: Verify 'View Code' and 'Live Demo' buttons stack on mobile",
+      "Step 15: Verify footer social links are easily tappable (44px min touch target)",
+      "Step 16: Verify navbar hamburger menu works correctly on mobile"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Complete search functionality with edge cases",
+    "steps": [
+      "Step 1: Navigate to '/portfolio'",
+      "Step 2: Verify initial state shows all projects",
+      "Step 3: Type a project title that definitely exists",
+      "Step 4: Verify the exact matching project appears",
+      "Step 5: Type the same title in uppercase",
+      "Step 6: Verify the project still appears (case-insensitive search)",
+      "Step 7: Clear the input and type partial project title",
+      "Step 8: Verify projects with matching partial titles appear",
+      "Step 9: Type a keyword from a project description",
+      "Step 10: Verify projects with that keyword in description appear",
+      "Step 11: Type 'zzz999xyz' (no match expected)",
+      "Step 12: Verify a 'no results' message is displayed",
+      "Step 13: Verify the project grid shows empty state gracefully",
+      "Step 14: Clear the search input completely",
+      "Step 15: Verify all projects are restored to the grid",
+      "Step 16: Verify the count of projects matches the original count"
+    ],
+    "passes": false
+  },
+  {
+    "category": "style",
+    "description": "Complete resources page visual design audit",
+    "steps": [
+      "Step 1: Navigate to '/resources'",
+      "Step 2: Take a screenshot of the page",
+      "Step 3: Verify the page heading is visually prominent",
+      "Step 4: Verify an intro paragraph is styled with appropriate font size",
+      "Step 5: Verify category section headings are larger than resource item names",
+      "Step 6: Verify category headings have visual separators or top spacing",
+      "Step 7: Verify resource items have consistent left padding or indentation",
+      "Step 8: Verify resource links have appropriate hover underline or color change",
+      "Step 9: Hover over a resource item and verify interactive state",
+      "Step 10: Verify external link icons are present next to resource links",
+      "Step 11: Toggle to dark mode",
+      "Step 12: Take another screenshot in dark mode",
+      "Step 13: Verify category headings are readable in dark mode",
+      "Step 14: Verify resource descriptions are readable in dark mode",
+      "Step 15: Verify links are still visually distinct as links in dark mode",
+      "Step 16: Verify the overall layout is clean and scannable"
+    ],
+    "passes": false
+  },
+  {
+    "category": "functional",
+    "description": "Complete project data integrity validation",
+    "steps": [
+      "Step 1: Open 'data/projects.json' and verify it is valid JSON",
+      "Step 2: Verify at least 5 projects exist in the array",
+      "Step 3: For each project, verify 'title' field is non-empty string",
+      "Step 4: For each project, verify 'slug' field is lowercase-hyphenated string",
+      "Step 5: For each project, verify all slugs are unique",
+      "Step 6: For each project, verify 'description' is a non-empty string",
+      "Step 7: For each project, verify 'techStack' is an array with at least 1 item",
+      "Step 8: For each project, verify 'status' is 'Active', 'Beta', or valid value",
+      "Step 9: For each project, verify 'category' is 'AI', 'Web', 'Tools', or valid value",
+      "Step 10: Verify at least 2 projects have 'featured: true'",
+      "Step 11: Verify at most 3 projects have 'featured: true'",
+      "Step 12: Navigate to '/portfolio' and verify all project slugs work as URL routes",
+      "Step 13: Navigate to each project detail page individually",
+      "Step 14: Verify each detail page displays the correct project data"
+    ],
+    "passes": false
+  }
+]

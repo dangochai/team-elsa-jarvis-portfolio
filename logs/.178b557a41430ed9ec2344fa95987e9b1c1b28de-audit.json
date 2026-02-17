@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/openclaw/.openclaw/workspace/projects/autonomous_agent/generations/portfolio_project/logs/.178b557a41430ed9ec2344fa95987e9b1c1b28de-audit.json",
+    "files": [
+        {
+            "date": 1771308270621,
+            "name": "/Users/openclaw/.openclaw/workspace/projects/autonomous_agent/generations/portfolio_project/logs/mcp-puppeteer-2026-02-17.log",
+            "hash": "cdfc448c6897c503a10d77f72ac17fde6833e1f6092970242a37778e7e8c951f"
+        }
+    ],
+    "hashType": "sha256"
+}

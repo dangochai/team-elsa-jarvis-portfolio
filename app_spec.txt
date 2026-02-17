@@ -1,0 +1,97 @@
+# App Specification: Team Elsa & Jarvis Portfolio
+
+## 1. Project Overview
+A modern, responsive portfolio website to showcase projects developed by "Team Elsa & Jarvis" (e.g., ElsaPerformance, AutonomousCodingAgent). The site serves as a central hub for project demos, GitHub repositories, and developer resources.
+
+## 2. Tech Stack
+- **Framework**: Next.js 14+ (App Router)
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Theme**: `next-themes` for Dark/Light mode toggle
+- **UI Components**: Shadcn/ui (or headless equivalent) for polished, accessible components.
+- **Data Source**: Local JSON files (no external database required for V1).
+
+## 3. Core Features & Pages
+
+### 3.1 Global Elements
+- **Navigation Bar**: 
+  - Logo: "Team Elsa & Jarvis"
+  - Links: Home, Portfolio, Resources.
+  - Theme Toggle: Sun/Moon icon to switch between Light and Dark modes.
+- **Footer**:
+  - Copyright info.
+  - Social links (GitHub, Twitter/X, LinkedIn).
+
+### 3.2 Home Page (`/`)
+- **Hero Section**: 
+  - Headline: "Building the Future with Autonomous Agents"
+  - Subheadline: "Team Elsa & Jarvis - Innovation in Code & AI."
+  - CTA Button: "View Our Work" (links to `/portfolio`).
+- **Team Intro**: 
+  - Brief section introducing the team's mission.
+  - "Meet the Builders": Cards for key team members (e.g., Jarvis, Elsa) with roles.
+- **Featured Projects**: 
+  - A grid displaying the top 2-3 projects (e.g., "ElsaPerformance").
+
+### 3.3 Portfolio Page (`/portfolio`)
+- **Project List**: 
+  - A comprehensive grid of all projects.
+  - **Filter/Search**: Simple text search or category filter (e.g., "AI", "Web", "Tools").
+- **Project Card Component**:
+  - Thumbnail image.
+  - Project Title.
+  - Short description (1-2 lines).
+  - Tech stack tags (e.g., "Python", "React").
+  - "View Details" button.
+
+### 3.4 Project Details Page (`/portfolio/[slug]`)
+- **Header**: Project Title, Date, and Status (e.g., "Active", "Beta").
+- **Links Section**: 
+  - Buttons for "View Code" (GitHub) and "Live Demo".
+- **Content**: 
+  - **About**: Detailed description of the project.
+  - **Key Features**: Bullet points.
+  - **Screenshots**: Gallery or carousel of project images.
+- **Tech Stack**: List of technologies used.
+
+### 3.5 Resources Section (`/resources`)
+- A curated list of tools, libraries, and articles used or recommended by the team.
+- Categorized list (e.g., "AI Models", "DevOps", "Learning").
+
+## 4. Design Guidelines
+- **Tone**: Professional, futuristic, clean.
+- **Color Palette**: 
+  - **Primary**: Deep Blue / Indigo (representing intelligence/AI).
+  - **Accent**: Cyan or Teal (for buttons/highlights).
+  - **Background**: 
+    - Light Mode: White/Gray-50.
+    - Dark Mode: Slate-900/950.
+- **Typography**: Inter or Geist Sans for a modern, readable look.
+
+## 5. File Structure (Suggested)
+- `app/`
+  - `page.tsx` (Home)
+  - `layout.tsx` (Root layout with Navbar/Footer)
+  - `portfolio/`
+    - `page.tsx` (List)
+    - `[slug]/page.tsx` (Details)
+  - `resources/page.tsx`
+- `components/`
+  - `ui/` (Buttons, Cards)
+  - `ThemeToggle.tsx`
+  - `ProjectCard.tsx`
+  - `Navbar.tsx`
+  - `Footer.tsx`
+- `data/`
+  - `projects.json` (Array of project objects)
+  - `resources.json` (Array of resource objects)
+  - `team.json`
+
+## 6. Implementation Steps
+1. Initialize Next.js project with TypeScript and Tailwind.
+2. Setup `next-themes` and basic layout (Navbar/Footer).
+3. Create the `data/` folder and mock JSON data for projects.
+4. Build the `ProjectCard` component.
+5. Implement the Portfolio grid and dynamic routing for Project Details.
+6. Build the Home page with Hero section.
+7. Final polish: Responsive check and Dark Mode verification.

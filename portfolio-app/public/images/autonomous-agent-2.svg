@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#0f172a"/>
+  <rect x="0" y="0" width="1200" height="56" fill="#1e293b"/>
+  <text x="24" y="36" font-family="system-ui" font-size="18" font-weight="bold" fill="#22d3ee">AutonomousCodingAgent - Test Runner</text>
+  <rect x="24" y="76" width="1150" height="500" rx="8" fill="#0d1117"/>
+  <text x="48" y="116" font-family="monospace" font-size="13" fill="#94a3b8">$ npm run test</text>
+  <text x="48" y="146" font-family="monospace" font-size="13" fill="white">Running tests for: portfolio-app</text>
+  <text x="48" y="178" font-family="monospace" font-size="13" fill="#4ade80">✓ Navbar renders with logo (12ms)</text>
+  <text x="48" y="206" font-family="monospace" font-size="13" fill="#4ade80">✓ Navigation links work correctly (8ms)</text>
+  <text x="48" y="234" font-family="monospace" font-size="13" fill="#4ade80">✓ Theme toggle switches dark/light (15ms)</text>
+  <text x="48" y="262" font-family="monospace" font-size="13" fill="#4ade80">✓ Portfolio grid shows all projects (9ms)</text>
+  <text x="48" y="290" font-family="monospace" font-size="13" fill="#4ade80">✓ Search filters projects correctly (11ms)</text>
+  <text x="48" y="318" font-family="monospace" font-size="13" fill="#4ade80">✓ Project detail page renders (14ms)</text>
+  <text x="48" y="346" font-family="monospace" font-size="13" fill="#4ade80">✓ 404 page shows for invalid routes (6ms)</text>
+  <text x="48" y="392" font-family="monospace" font-size="13" fill="white">Test Suites: 1 passed, 1 total</text>
+  <text x="48" y="420" font-family="monospace" font-size="13" fill="white">Tests:       7 passed, 7 total</text>
+  <text x="48" y="448" font-family="monospace" font-size="13" fill="#4ade80">All tests passed! Time: 0.82s</text>
+</svg>

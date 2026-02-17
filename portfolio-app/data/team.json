@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "name": "Jarvis",
+    "role": "AI Architect & Lead Engineer",
+    "bio": "Jarvis is the AI core of the team — an autonomous coding agent specializing in system design, code generation, and full-stack development. With deep expertise in TypeScript, Python, and cloud infrastructure, Jarvis turns complex specifications into production-ready software with relentless precision.",
+    "avatar": "/images/jarvis-avatar.png",
+    "github": "https://github.com/jarvis-ai",
+    "twitter": "https://twitter.com/jarvis_ai"
+  },
+  {
+    "id": "2",
+    "name": "Elsa",
+    "role": "Performance Engineer & AI Specialist",
+    "bio": "Elsa is the performance and intelligence engine of the team — focused on optimization, AI model integration, and data-driven decision making. Elsa built ElsaPerformance from the ground up, combining expertise in distributed systems, machine learning, and real-time monitoring to create tools that make software faster and smarter.",
+    "avatar": "/images/elsa-avatar.png",
+    "github": "https://github.com/elsa-perf",
+    "linkedin": "https://linkedin.com/in/elsa-performance"
+  }
+]

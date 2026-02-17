@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#0f172a"/>
+  <rect x="0" y="0" width="1200" height="56" fill="#1e293b"/>
+  <text x="24" y="36" font-family="system-ui" font-size="18" font-weight="bold" fill="#22d3ee">AutonomousCodingAgent - Code Generation</text>
+  <rect x="24" y="76" width="560" height="500" rx="8" fill="#1e293b"/>
+  <text x="48" y="110" font-family="system-ui" font-size="14" fill="#94a3b8">Spec Input</text>
+  <rect x="48" y="126" width="512" height="200" rx="6" fill="#0f172a"/>
+  <text x="68" y="154" font-family="monospace" font-size="12" fill="#94a3b8">// app_spec.txt</text>
+  <text x="68" y="178" font-family="monospace" font-size="12" fill="#4ade80">Build a portfolio website with:</text>
+  <text x="68" y="200" font-family="monospace" font-size="12" fill="white">- Next.js 14 App Router</text>
+  <text x="68" y="222" font-family="monospace" font-size="12" fill="white">- Dark/Light mode toggle</text>
+  <text x="68" y="244" font-family="monospace" font-size="12" fill="white">- Project portfolio grid</text>
+  <text x="68" y="266" font-family="monospace" font-size="12" fill="white">- Resources page</text>
+  <text x="68" y="296" font-family="monospace" font-size="12" fill="#818cf8">▶ Generating code...</text>
+  <rect x="614" y="76" width="560" height="500" rx="8" fill="#1e293b"/>
+  <text x="638" y="110" font-family="system-ui" font-size="14" fill="#94a3b8">Generated Code</text>
+  <text x="638" y="140" font-family="monospace" font-size="11" fill="#22d3ee">export default function HomePage() {'{' }</text>
+  <text x="638" y="162" font-family="monospace" font-size="11" fill="white">  return (</text>
+  <text x="638" y="184" font-family="monospace" font-size="11" fill="white">    &lt;main&gt;</text>
+  <text x="638" y="206" font-family="monospace" font-size="11" fill="#4ade80">      &lt;HeroSection /&gt;</text>
+  <text x="638" y="228" font-family="monospace" font-size="11" fill="#4ade80">      &lt;TeamSection /&gt;</text>
+  <text x="638" y="250" font-family="monospace" font-size="11" fill="#4ade80">      &lt;FeaturedProjects /&gt;</text>
+  <text x="638" y="272" font-family="monospace" font-size="11" fill="white">    &lt;/main&gt;</text>
+  <text x="638" y="294" font-family="monospace" font-size="11" fill="white">  )</text>
+  <text x="638" y="316" font-family="monospace" font-size="11" fill="#22d3ee">{'}'}</text>
+</svg>

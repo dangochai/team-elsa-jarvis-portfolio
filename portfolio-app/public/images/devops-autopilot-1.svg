@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#0f172a"/>
+  <rect x="0" y="0" width="1200" height="56" fill="#1e293b"/>
+  <text x="24" y="36" font-family="system-ui" font-size="18" font-weight="bold" fill="#fbbf24">DevOps Autopilot - Pipeline</text>
+  <rect x="100" y="80" width="1000" height="80" rx="8" fill="#1e293b"/>
+  <rect x="130" y="100" width="120" height="40" rx="20" fill="#4ade8022"/>
+  <text x="190" y="126" font-family="system-ui" font-size="13" fill="#4ade80" text-anchor="middle">✓ Build</text>
+  <line x1="250" y1="120" x2="330" y2="120" stroke="#4ade80" stroke-width="2"/>
+  <rect x="330" y="100" width="120" height="40" rx="20" fill="#4ade8022"/>
+  <text x="390" y="126" font-family="system-ui" font-size="13" fill="#4ade80" text-anchor="middle">✓ Test</text>
+  <line x1="450" y1="120" x2="530" y2="120" stroke="#4ade80" stroke-width="2"/>
+  <rect x="530" y="100" width="120" height="40" rx="20" fill="#fbbf2422"/>
+  <text x="590" y="126" font-family="system-ui" font-size="13" fill="#fbbf24" text-anchor="middle">⚡ Deploy</text>
+  <line x1="650" y1="120" x2="730" y2="120" stroke="#64748b" stroke-width="2" stroke-dasharray="6,4"/>
+  <rect x="730" y="100" width="120" height="40" rx="20" fill="#1e293b"/>
+  <text x="790" y="126" font-family="system-ui" font-size="13" fill="#64748b" text-anchor="middle">Monitor</text>
+  <rect x="100" y="180" width="1000" height="400" rx="8" fill="#1e293b"/>
+  <text x="130" y="218" font-family="system-ui" font-size="14" fill="#94a3b8">Deployment Log</text>
+  <text x="130" y="254" font-family="monospace" font-size="12" fill="#4ade80">[08:42:01] Building Docker image...</text>
+  <text x="130" y="278" font-family="monospace" font-size="12" fill="#4ade80">[08:42:15] Image built: portfolio-app:v2.4.1</text>
+  <text x="130" y="302" font-family="monospace" font-size="12" fill="#4ade80">[08:42:16] Pushing to registry...</text>
+  <text x="130" y="326" font-family="monospace" font-size="12" fill="#4ade80">[08:42:28] Deploying to Kubernetes cluster...</text>
+  <text x="130" y="350" font-family="monospace" font-size="12" fill="#fbbf24">[08:42:30] Rolling update in progress (2/3 pods)</text>
+  <text x="130" y="374" font-family="monospace" font-size="12" fill="#fbbf24">[08:42:35] Waiting for health checks...</text>
+</svg>

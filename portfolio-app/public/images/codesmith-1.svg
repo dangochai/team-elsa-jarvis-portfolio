@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#0f172a"/>
+  <rect x="100" y="50" width="1000" height="575" rx="8" fill="#1e293b"/>
+  <rect x="100" y="50" width="1000" height="40" rx="8" fill="#0f172a"/>
+  <circle cx="130" cy="70" r="8" fill="#ef4444"/>
+  <circle cx="155" cy="70" r="8" fill="#fbbf24"/>
+  <circle cx="180" cy="70" r="8" fill="#4ade80"/>
+  <text x="600" y="76" font-family="system-ui" font-size="12" fill="#64748b" text-anchor="middle">Terminal</text>
+  <text x="130" y="140" font-family="monospace" font-size="14" fill="#94a3b8">$ codesmith init</text>
+  <text x="130" y="170" font-family="monospace" font-size="14" fill="white">? Project name: my-awesome-app</text>
+  <text x="130" y="200" font-family="monospace" font-size="14" fill="white">? Template: Next.js + TypeScript + Tailwind</text>
+  <text x="130" y="230" font-family="monospace" font-size="14" fill="white">? Package manager: npm</text>
+  <text x="130" y="260" font-family="monospace" font-size="14" fill="white">? Add authentication? Yes</text>
+  <text x="130" y="310" font-family="monospace" font-size="14" fill="#22d3ee">Creating project structure...</text>
+  <text x="130" y="340" font-family="monospace" font-size="13" fill="#4ade80">✓ Created /src/app/layout.tsx</text>
+  <text x="130" y="368" font-family="monospace" font-size="13" fill="#4ade80">✓ Created /src/components/</text>
+  <text x="130" y="396" font-family="monospace" font-size="13" fill="#4ade80">✓ Installed dependencies (18 packages)</text>
+  <text x="130" y="424" font-family="monospace" font-size="13" fill="#4ade80">✓ Configured TypeScript</text>
+  <text x="130" y="470" font-family="monospace" font-size="14" fill="white">Done! Run: npm run dev</text>
+</svg>

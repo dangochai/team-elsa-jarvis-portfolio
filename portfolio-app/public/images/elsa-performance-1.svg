@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#0f172a"/>
+  <rect x="0" y="0" width="1200" height="56" fill="#1e293b"/>
+  <text x="24" y="36" font-family="system-ui" font-size="18" font-weight="bold" fill="#818cf8">ElsaPerformance</text>
+  <text x="900" y="36" font-family="system-ui" font-size="14" fill="#64748b">Dashboard · Analytics · Alerts</text>
+  <rect x="24" y="76" width="200" height="100" rx="8" fill="#1e293b"/>
+  <text x="124" y="120" font-family="system-ui" font-size="28" font-weight="bold" fill="#22d3ee" text-anchor="middle">99.5%</text>
+  <text x="124" y="148" font-family="system-ui" font-size="12" fill="#64748b" text-anchor="middle">Uptime</text>
+  <rect x="244" y="76" width="200" height="100" rx="8" fill="#1e293b"/>
+  <text x="344" y="120" font-family="system-ui" font-size="28" font-weight="bold" fill="#4ade80" text-anchor="middle">12ms</text>
+  <text x="344" y="148" font-family="system-ui" font-size="12" fill="#64748b" text-anchor="middle">Avg Response</text>
+  <rect x="464" y="76" width="200" height="100" rx="8" fill="#1e293b"/>
+  <text x="564" y="120" font-family="system-ui" font-size="28" font-weight="bold" fill="#818cf8" text-anchor="middle">1.2M</text>
+  <text x="564" y="148" font-family="system-ui" font-size="12" fill="#64748b" text-anchor="middle">Requests/day</text>
+  <rect x="24" y="196" width="800" height="300" rx="8" fill="#1e293b"/>
+  <text x="48" y="224" font-family="system-ui" font-size="14" fill="#94a3b8">Performance Over Time</text>
+  <polyline points="48,460 148,420 248,440 348,380 448,360 548,340 648,320 748,290 848,480" fill="none" stroke="#818cf8" stroke-width="2"/>
+  <polyline points="48,480 148,460 248,470 348,440 448,430 548,410 648,400 748,380 848,500" fill="none" stroke="#22d3ee" stroke-width="2" stroke-dasharray="8,4"/>
+</svg>

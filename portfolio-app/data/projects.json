@@ -1,0 +1,165 @@
+[
+  {
+    "id": "1",
+    "slug": "elsa-performance",
+    "title": "ElsaPerformance",
+    "shortDescription": "An AI-powered performance monitoring and optimization platform for modern applications.",
+    "description": "ElsaPerformance is a cutting-edge performance monitoring platform built by Team Elsa & Jarvis. It leverages AI to automatically detect performance bottlenecks, predict system failures before they happen, and provide actionable optimization recommendations. The platform supports real-time monitoring of web applications, APIs, and microservices with beautiful dashboards and intelligent alerting.",
+    "techStack": ["Python", "React", "FastAPI", "PostgreSQL", "Redis", "Docker"],
+    "status": "Active",
+    "category": "AI",
+    "date": "2024-01-15",
+    "githubUrl": "https://github.com/team-elsa-jarvis/elsa-performance",
+    "liveDemo": "https://elsa-performance.demo.com",
+    "thumbnail": "/images/elsa-performance-thumb.svg",
+    "screenshots": [
+      "/images/elsa-performance-1.svg",
+      "/images/elsa-performance-2.svg",
+      "/images/elsa-performance-3.svg"
+    ],
+    "features": [
+      "Real-time performance metrics collection and visualization",
+      "AI-powered anomaly detection with 99.5% accuracy",
+      "Automated performance optimization recommendations",
+      "Support for 50+ integrations including AWS, GCP, and Azure",
+      "Sub-millisecond latency tracking across distributed systems",
+      "Intelligent alerting with noise reduction algorithms",
+      "Historical trend analysis with predictive forecasting",
+      "Custom dashboard builder with drag-and-drop interface"
+    ],
+    "featured": true
+  },
+  {
+    "id": "2",
+    "slug": "autonomous-coding-agent",
+    "title": "AutonomousCodingAgent",
+    "shortDescription": "A fully autonomous AI agent that writes, tests, and ships production code without human intervention.",
+    "description": "AutonomousCodingAgent is our flagship project — a revolutionary AI system that autonomously develops software from specification to deployment. Using advanced language models and a multi-agent architecture, it reads project specs, writes code, runs tests, fixes bugs, and commits working features. This very portfolio was built by the agent itself, demonstrating its capabilities.",
+    "techStack": ["TypeScript", "Python", "Claude AI", "Next.js", "Docker", "GitHub Actions"],
+    "status": "Active",
+    "category": "AI",
+    "date": "2024-03-01",
+    "githubUrl": "https://github.com/team-elsa-jarvis/autonomous-coding-agent",
+    "liveDemo": "https://autonomous-agent.demo.com",
+    "thumbnail": "/images/autonomous-agent-thumb.svg",
+    "screenshots": [
+      "/images/autonomous-agent-1.svg",
+      "/images/autonomous-agent-2.svg"
+    ],
+    "features": [
+      "End-to-end autonomous software development from spec to deployment",
+      "Multi-agent architecture with specialized roles (architect, coder, tester)",
+      "Automatic bug detection and self-healing code generation",
+      "Integration with GitHub for automated PR creation and review",
+      "Support for multiple programming languages and frameworks",
+      "Context-aware code generation respecting existing codebase patterns",
+      "Automated test suite generation with high coverage targets",
+      "Continuous learning from project history and user feedback"
+    ],
+    "featured": true
+  },
+  {
+    "id": "3",
+    "slug": "nexus-dashboard",
+    "title": "Nexus Dashboard",
+    "shortDescription": "A unified operations dashboard for managing AI agents, deployments, and team workflows.",
+    "description": "Nexus Dashboard provides a centralized command center for teams building with AI. It brings together agent monitoring, deployment pipelines, team collaboration tools, and resource management in one beautiful, responsive interface. Built with a focus on developer experience and operational efficiency.",
+    "techStack": ["Next.js", "TypeScript", "Tailwind CSS", "GraphQL", "Node.js"],
+    "status": "Beta",
+    "category": "Web",
+    "date": "2024-05-20",
+    "githubUrl": "https://github.com/team-elsa-jarvis/nexus-dashboard",
+    "liveDemo": "https://nexus.demo.com",
+    "thumbnail": "/images/nexus-thumb.svg",
+    "screenshots": [
+      "/images/nexus-1.svg",
+      "/images/nexus-2.svg"
+    ],
+    "features": [
+      "Unified dashboard for all AI agent monitoring and control",
+      "Real-time deployment pipeline visualization",
+      "Team collaboration with role-based access control",
+      "Integration with GitHub, Jira, and Slack",
+      "Resource usage analytics and cost optimization insights",
+      "Customizable widget system for personalized workflows"
+    ],
+    "featured": true
+  },
+  {
+    "id": "4",
+    "slug": "codesmith-cli",
+    "title": "CodeSmith CLI",
+    "shortDescription": "A powerful command-line tool for scaffolding, code generation, and project automation.",
+    "description": "CodeSmith CLI is a developer productivity tool that dramatically speeds up project setup and code generation. With a rich library of templates and AI-assisted generation, it helps developers bootstrap new projects, generate boilerplate code, and automate repetitive development tasks — all from the terminal.",
+    "techStack": ["Node.js", "TypeScript", "Commander.js", "Handlebars", "OpenAI API"],
+    "status": "Active",
+    "category": "Tools",
+    "date": "2024-02-10",
+    "githubUrl": "https://github.com/team-elsa-jarvis/codesmith-cli",
+    "thumbnail": "/images/codesmith-thumb.svg",
+    "screenshots": [
+      "/images/codesmith-1.svg"
+    ],
+    "features": [
+      "50+ project templates for popular frameworks and languages",
+      "AI-assisted code generation with context awareness",
+      "Interactive CLI with intuitive prompts",
+      "Custom template creation and sharing",
+      "Integration with package managers (npm, yarn, pnpm)",
+      "Automated dependency installation and configuration"
+    ],
+    "featured": false
+  },
+  {
+    "id": "5",
+    "slug": "vector-search-engine",
+    "title": "VectorSearch Engine",
+    "shortDescription": "A high-performance semantic search engine built on vector embeddings for intelligent document retrieval.",
+    "description": "VectorSearch Engine is a production-ready semantic search platform that uses state-of-the-art embedding models to enable meaning-based document retrieval. Unlike keyword search, it understands the intent behind queries, making it ideal for knowledge bases, documentation portals, and AI-powered applications.",
+    "techStack": ["Python", "FastAPI", "Pinecone", "OpenAI", "PostgreSQL", "Docker"],
+    "status": "Active",
+    "category": "AI",
+    "date": "2024-04-05",
+    "githubUrl": "https://github.com/team-elsa-jarvis/vector-search-engine",
+    "liveDemo": "https://vector-search.demo.com",
+    "thumbnail": "/images/vector-search-thumb.svg",
+    "screenshots": [
+      "/images/vector-search-1.svg",
+      "/images/vector-search-2.svg"
+    ],
+    "features": [
+      "Sub-100ms semantic search across millions of documents",
+      "Support for multiple embedding models (OpenAI, Cohere, local)",
+      "Real-time index updates without downtime",
+      "Multi-tenant architecture for SaaS applications",
+      "REST API and Python SDK for easy integration",
+      "Advanced filtering with metadata and faceted search"
+    ],
+    "featured": false
+  },
+  {
+    "id": "6",
+    "slug": "devops-autopilot",
+    "title": "DevOps Autopilot",
+    "shortDescription": "An intelligent DevOps automation tool that manages CI/CD pipelines, infrastructure, and deployments.",
+    "description": "DevOps Autopilot removes the toil from DevOps engineering by using AI to automatically manage CI/CD pipelines, provision infrastructure, handle deployments, and respond to incidents. It learns from your team's patterns and continuously optimizes your development workflow for speed and reliability.",
+    "techStack": ["Go", "Terraform", "Kubernetes", "GitHub Actions", "Python", "Prometheus"],
+    "status": "Beta",
+    "category": "Tools",
+    "date": "2024-06-15",
+    "githubUrl": "https://github.com/team-elsa-jarvis/devops-autopilot",
+    "thumbnail": "/images/devops-autopilot-thumb.svg",
+    "screenshots": [
+      "/images/devops-autopilot-1.svg"
+    ],
+    "features": [
+      "Automated CI/CD pipeline generation from code analysis",
+      "Intelligent infrastructure provisioning with cost optimization",
+      "Zero-downtime deployment strategies (blue-green, canary)",
+      "AI-powered incident response and auto-remediation",
+      "Kubernetes cluster management and auto-scaling",
+      "Security scanning and compliance automation"
+    ],
+    "featured": false
+  }
+]

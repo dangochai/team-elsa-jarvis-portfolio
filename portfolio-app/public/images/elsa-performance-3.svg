@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#0f172a"/>
+  <rect x="0" y="0" width="1200" height="56" fill="#1e293b"/>
+  <text x="24" y="36" font-family="system-ui" font-size="18" font-weight="bold" fill="#818cf8">ElsaPerformance - Alert Settings</text>
+  <rect x="24" y="76" width="760" height="500" rx="8" fill="#1e293b"/>
+  <text x="48" y="110" font-family="system-ui" font-size="14" fill="#94a3b8">Alert Configuration</text>
+  <rect x="48" y="126" width="700" height="60" rx="6" fill="#0f172a"/>
+  <text x="72" y="162" font-family="system-ui" font-size="14" fill="white">CPU Usage &gt; 85%</text>
+  <rect x="660" y="138" width="60" height="28" rx="14" fill="#4ade80"/>
+  <rect x="48" y="202" width="700" height="60" rx="6" fill="#0f172a"/>
+  <text x="72" y="238" font-family="system-ui" font-size="14" fill="white">Response Time &gt; 500ms</text>
+  <rect x="660" y="214" width="60" height="28" rx="14" fill="#4ade80"/>
+  <rect x="48" y="278" width="700" height="60" rx="6" fill="#0f172a"/>
+  <text x="72" y="314" font-family="system-ui" font-size="14" fill="white">Error Rate &gt; 1%</text>
+  <rect x="660" y="290" width="60" height="28" rx="14" fill="#64748b"/>
+  <rect x="804" y="76" width="372" height="500" rx="8" fill="#1e293b"/>
+  <text x="828" y="110" font-family="system-ui" font-size="14" fill="#94a3b8">Recent Alerts</text>
+  <rect x="828" y="126" width="320" height="50" rx="6" fill="#fef08a22"/>
+  <text x="848" y="158" font-family="system-ui" font-size="12" fill="#fbbf24">⚠ High CPU on api-server-3</text>
+  <rect x="828" y="186" width="320" height="50" rx="6" fill="#86efac22"/>
+  <text x="848" y="218" font-family="system-ui" font-size="12" fill="#4ade80">✓ Alert resolved: db-replica-1</text>
+</svg>
