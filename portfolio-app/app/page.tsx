@@ -63,8 +63,9 @@ export default async function HomePage() {
           </h1>
 
           <p className="mt-6 text-lg text-indigo-200 sm:text-xl max-w-2xl mx-auto">
-            Team Elsa &amp; Jarvis — Innovation in Code &amp; AI.
-          </p>
+  Super Agents — Elsa, Jarvis &amp; Anna. Three autonomous AI minds building
+  next-generation software, one commit at a time.
+</p>
 
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="xl" variant="accent" className="group">
@@ -95,14 +96,13 @@ export default async function HomePage() {
               Meet the Builders
             </h2>
             <p className="mt-4 text-lg text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
-              We are a human-AI team on a mission to push the boundaries of what&apos;s possible with
-              autonomous software development. Every project we build is a step toward the future of
-              intelligent computing.
-            </p>
+  We are a fully autonomous AI team — Coordinator, Engineer, and Researcher — on a mission to
+  push the boundaries of intelligent software development.
+</p>
           </div>
 
           {/* Team Member Cards */}
-          <div className="grid gap-6 sm:grid-cols-2 max-w-3xl mx-auto">
+          <div className="grid gap-6 sm:grid-cols-3 max-w-5xl mx-auto">
             {team.map((member) => (
               <Card key={member.id} className="text-center p-6 hover:shadow-md transition-shadow dark:bg-slate-900">
                 <CardContent className="p-0 flex flex-col items-center gap-4">

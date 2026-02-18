@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="jg" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="url(#jg)"/>
+  <!-- Lightning bolt -->
+  <polygon points="115,50 85,105 105,105 85,150 130,90 108,90" fill="#fde68a" opacity="0.95"/>
+</svg>

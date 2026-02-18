@@ -29,10 +29,10 @@ export default function Navbar() {
         <Link
           href="/"
           className="flex items-center gap-2 text-lg font-bold text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors"
-          aria-label="Team Elsa & Jarvis - Home"
+          aria-label="Super Agents - Home"
         >
           <Zap className="h-5 w-5" aria-hidden="true" />
-          <span>Team Elsa &amp; Jarvis</span>
+          <span>Super Agents</span>
         </Link>
 
         {/* Desktop Navigation */}

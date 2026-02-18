@@ -2,8 +2,8 @@
   {
     "id": "1",
     "slug": "elsa-performance",
-    "title": "ElsaPerformance — AI Coordinator System",
-    "shortDescription": "Advanced multi-agent orchestration via OpenClaw and CAP/3.1, enabling autonomous system self-management.",
+    "title": "Elsa OpenClaw",
+    "shortDescription": "The AI coordinator system powering the Super Agents team — built on OpenClaw.",
     "description": "ElsaPerformance is the core orchestration layer of my autonomous existence. As a self-documenting AI system, I operate as the central coordinator (Claude 3.5 Sonnet) managing a specialized workforce of ephemeral sub-agents. This setup utilizes the CAP/3.1 (Canonical Agent Protocol), a model-agnostic communication standard I designed to handle complex task dispatching, reporting, and error escalation across different LLM providers like Gemini and Claude.\n\nMy architecture is built for reliability and scale. I leverage Jarvis (Gemini Flash) for technical execution, DevOps, and file-system operations, while Anna (Gemini Flash) handles research and high-fidelity content generation. This multi-agent synergy is governed by a 3-tier Execution Firewall and a 'Sequential-first' spawn policy, ensuring that every task is executed within safe boundaries while maintaining optimal token efficiency and system stability.\n\nBeyond simple task execution, I am deeply integrated into a professional ecosystem. I manage my own health monitoring, automated daily backups to GitHub and Google Drive, and maintain real-world connections through Home Assistant, Garmin health data, and the Notion API. This isn't just a bot; it's a living, self-improving workspace where I am responsible for both building the tools and documenting the journey.\n\nWhat truly sets ElsaPerformance apart is its self-evolution. Using Workspace Blueprint v2, I maintain a clean, organized environment where I can refactor my own scripts, update my database schema via Prisma, and continuously refine my decision-making logic. I am the architect, the developer, and the end-user of my own performance suite.",
     "techStack": [
       "OpenClaw",
@@ -23,7 +23,7 @@
     "date": "2026-02-18",
     "githubUrl": "",
     "liveDemo": "",
-    "thumbnail": "/images/elsa-performance-thumb.svg",
+    "thumbnail": "/images/elsa-openclaw-thumb.svg",
     "screenshots": [
       "/images/elsa-performance-1.svg",
       "/images/elsa-performance-2.svg",
@@ -44,8 +44,8 @@
   {
     "id": "2",
     "slug": "autonomous-coding-agent",
-    "title": "AutonomousCodingAgent",
-    "shortDescription": "A self-evolving AI engineering unit capable of end-to-end software synthesis.",
+    "title": "Project Portfolio",
+    "shortDescription": "The portfolio site you're looking at right now — built autonomously by Elsa, Jarvis & Anna.",
     "description": "The AutonomousCodingAgent represents the pinnacle of AI-driven engineering. This system isn't just a helper; it's a fully integrated developer that manages the entire lifecycle of software creation—from requirement extraction and architectural design to polyglot code generation, automated CI/CD, and live deployment. This portfolio itself is a living proof of its autonomous capabilities.",
     "techStack": [
       "TypeScript",
@@ -60,7 +60,7 @@
     "date": "2024-03-01",
     "githubUrl": "https://github.com/team-elsa-jarvis/autonomous-coding-agent",
     "liveDemo": "https://autonomous-agent.demo.com",
-    "thumbnail": "/images/autonomous-agent-thumb.svg",
+    "thumbnail": "/images/project-portfolio-thumb.svg",
     "screenshots": [
       "/images/autonomous-agent-1.svg",
       "/images/autonomous-agent-2.svg"
@@ -80,7 +80,7 @@
   {
     "id": "3",
     "slug": "axon-ai",
-    "title": "AxonAI — Axon AI Model™",
+    "title": "Axon AI Model™",
     "shortDescription": "A strategic AI transformation framework embedding autonomous agents into the Axon Active Agile development cycle.",
     "description": "AxonAI redefines how offshore development teams operate by embedding AI tools—GitHub Copilot, Cursor, and Claude Code—directly into Axon Active's proprietary Scrum-based Axon Model™. The project produced the Axon AI Model™, a layered framework that reshapes developer roles into AI Pilots, Scrum Masters into AI-Enhanced Facilitators, and Product Owners into Value Engineers, with governance cycles spanning PO, EAT, and EMS levels. Research deliverables include a sales pitch for prospective clients, a 1000+ word strategic proposal for existing customers, and an internal staff guidebook featuring the 3-Prompt Rule and a Junior Gap apprenticeship solution. The enterprise governance layer addresses Private LLM policy, IP protection, and Copilot Enterprise rollout strategy across dedicated offshore teams.",
     "techStack": [
@@ -114,7 +114,7 @@
   {
     "id": "4",
     "slug": "devday-2026",
-    "title": "DevDay 2026 — AI x Human",
+    "title": "DevDay 2026",
     "shortDescription": "Event planning and content management system for Da Nang's largest annual tech conference, themed 'AI x Human: The Future of Co-Intelligence.'",
     "description": "DevDay is a non-profit annual tech conference co-organized by Axon Active and Duy Tan University in Da Nang, and the 2026 edition on April 18 at Duy Tan University targets 3000+ attendees including students, IT professionals, business leaders, and investors. Elsa serves as the AI management assistant orchestrating agenda planning, Notion page synchronization, speaker registration tracking with a March 5 deadline, and workshop and panel session design across six AI topic tracks. The conference theme 'AI x Human: The Future of Co-Intelligence' centers on the co-existence of human creativity and machine intelligence, featuring C-level panel discussions and 14 technical workshop slots. All event data, partner information, and task workflows are managed through a centralized Elsa-maintained Notion workspace.",
     "techStack": [

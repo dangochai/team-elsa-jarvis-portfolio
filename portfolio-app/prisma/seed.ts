@@ -52,15 +52,24 @@ async function main() {
   // Import Team Members
   const teamData = JSON.parse(fs.readFileSync(path.join(dataDir, 'team.json'), 'utf8'))
   for (const item of teamData) {
-    await prisma.teamMember.create({
-      data: {
+    await prisma.teamMember.upsert({
+      where: { name: item.name },
+      update: {
+        role: item.role,
+        bio: item.bio,
+        avatar: item.avatar,
+        github: item.github ?? null,
+        twitter: item.twitter ?? null,
+        linkedin: item.linkedin ?? null,
+      },
+      create: {
         name: item.name,
         role: item.role,
         bio: item.bio,
         avatar: item.avatar,
-        github: item.github,
-        twitter: item.twitter,
-        linkedin: item.linkedin,
+        github: item.github ?? null,
+        twitter: item.twitter ?? null,
+        linkedin: item.linkedin ?? null,
       },
     })
   }

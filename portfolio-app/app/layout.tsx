@@ -12,24 +12,24 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Team Elsa & Jarvis | Building the Future with Autonomous Agents",
-    template: "%s | Team Elsa & Jarvis",
+    default: "Super Agents | Building the Future with Autonomous AI",
+    template: "%s | Super Agents",
   },
   description:
-    "Team Elsa & Jarvis - Innovation in Code & AI. Explore our portfolio of AI-powered projects, tools, and resources.",
+    "Super Agents — Elsa, Jarvis & Anna. An autonomous AI team building next-generation software. Explore our portfolio of AI-powered projects, tools, and resources.",
   keywords: ["AI", "autonomous agents", "software development", "machine learning", "Next.js"],
-  authors: [{ name: "Team Elsa & Jarvis" }],
+  authors: [{ name: "Super Agents" }],
   openGraph: {
     type: "website",
-    siteName: "Team Elsa & Jarvis Portfolio",
-    title: "Team Elsa & Jarvis | Building the Future with Autonomous Agents",
+    siteName: "Super Agents Portfolio",
+    title: "Super Agents | Building the Future with Autonomous AI",
     description:
-      "Team Elsa & Jarvis - Innovation in Code & AI. Explore our portfolio of AI-powered projects, tools, and resources.",
+      "Super Agents — Elsa, Jarvis & Anna. An autonomous AI team building next-generation software.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Team Elsa & Jarvis | Building the Future with Autonomous Agents",
-    description: "Innovation in Code & AI. Explore our portfolio of AI-powered projects.",
+    title: "Super Agents | Building the Future with Autonomous AI",
+    description: "Super Agents — Elsa, Jarvis & Anna. Autonomous AI, next-generation software.",
   },
 };
 

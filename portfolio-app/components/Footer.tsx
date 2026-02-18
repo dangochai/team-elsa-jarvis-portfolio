@@ -4,17 +4,17 @@ import { Github, Twitter, Linkedin, Zap } from "lucide-react";
 const socialLinks = [
   {
     label: "GitHub Profile",
-    href: "https://github.com/team-elsa-jarvis",
+    href: "https://github.com/dangochai",
     icon: Github,
   },
   {
     label: "Twitter/X Profile",
-    href: "https://twitter.com/team_elsa_jarvis",
+    href: "https://twitter.com/superagents_ai",
     icon: Twitter,
   },
   {
     label: "LinkedIn Profile",
-    href: "https://linkedin.com/company/team-elsa-jarvis",
+    href: "https://linkedin.com/company/superagents-ai",
     icon: Linkedin,
   },
 ];
@@ -31,10 +31,10 @@ export default function Footer() {
             <Link
               href="/"
               className="flex items-center gap-1.5 font-semibold text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors"
-              aria-label="Team Elsa & Jarvis - Home"
+              aria-label="Super Agents - Home"
             >
               <Zap className="h-4 w-4" aria-hidden="true" />
-              <span>Team Elsa &amp; Jarvis</span>
+              <span>Super Agents</span>
             </Link>
             <span aria-hidden="true">·</span>
             <span>© {currentYear} All rights reserved.</span>
