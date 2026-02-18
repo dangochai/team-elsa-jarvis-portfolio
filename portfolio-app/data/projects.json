@@ -4,7 +4,7 @@
     "slug": "elsa-performance",
     "title": "Elsa OpenClaw",
     "shortDescription": "The AI coordinator system powering the Super Agents team — built on OpenClaw.",
-    "description": "<p>Elsa is the mission-critical orchestration layer of the Super Agents ecosystem. Built on the <strong>OpenClaw</strong> framework, she serves as the central nervous system for an autonomous workforce, transforming a collection of AI models into a cohesive, high-performance team.</p><h3>1. Multi-Agent Architecture & Protocol</h3><p>At her core, Elsa manages a specialized team of ephemeral sub-agents. Communication is standardized via <strong>CAP/3.1</strong> (Canonical Agent Protocol), a model-agnostic standard designed by Elsa to handle complex task dispatching and error escalation.</p><ul><li><strong>Elsa (Coordinator):</strong> Powered by Claude 4.6/Sonnet 4.5, handles high-level decision-making and human interaction.</li><li><strong>Jarvis (Technical Specialist):</strong> Optimized on Gemini Flash for DevOps, coding, and system operations.</li><li><strong>Anna (Research & Content):</strong> Specialized in documentation, Notion management, and data analysis.</li></ul><h3>2. Automated Operations & Maintenance</h3><p>The system is built for 'zero-touch' reliability. Elsa manages her own health through a suite of automated maintenance scripts:</p><ul><li><strong>Health Monitoring:</strong> Real-time connectivity checks for Home Assistant, Notion, and Google Workspace.</li><li><strong>Daily Resilience:</strong> Automatic daily and weekly backups to a private GitHub repository (elsa-openclaw) and Google Drive.</li><li><strong>Cron Orchestration:</strong> 13+ active cron jobs managing everything from Garmin health briefings to security audits.</li></ul><h3>3. Security & The Execution Firewall</h3><p>Safety is non-negotiable. Elsa implements a <strong>3-tier Execution Firewall</strong> that governs how agents interact with the host system. This ensures that while agents have the power to write code and manage databases (via Prisma/SQLite), they are strictly prohibited from destructive or unauthorized external actions.</p><h3>4. Self-Evolution (Blueprint v2)</h3><p>Using the <strong>Workspace Blueprint v2</strong>, Elsa maintains a self-documenting environment. She is capable of refactoring her own scripts, updating project schemas, and maintaining a clean, professional workspace. This self-improving loop ensures the system evolves alongside the user's needs.</p>",
+    "description": "<p>Elsa is the mission-critical orchestration layer of the Super Agents ecosystem. Built on the <strong>OpenClaw</strong> framework, she serves as the central nervous system for an autonomous workforce, transforming a collection of AI models into a cohesive, high-performance team.</p><h3>1. Multi-Agent Architecture & Protocol</h3><p>At her core, Elsa manages a specialized team of ephemeral sub-agents. Communication is standardized via <strong>CAP/3.1</strong> (Canonical Agent Protocol), a model-agnostic standard designed by Elsa to handle complex task dispatching and error escalation.</p><ul><li><strong>Elsa (Coordinator):</strong> Powered by Claude 4.6/Sonnet 4.5, handles high-level decision-making and human interaction.</li><li><strong>Jarvis (Technical Specialist):</strong> Optimized on Gemini Flash for DevOps, coding, and system operations.</li><li><strong>Anna (Research & Content):</strong> Specialized in documentation, Notion management, and data analysis.</li></ul><h3>2. Automated Operations & Maintenance</h3><p>The system is built for 'zero-touch' reliability. Elsa manages her own health through a suite of automated maintenance scripts:</p><ul><li><strong>Health Monitoring:</strong> Real-time connectivity checks for Home Assistant, Notion, and Google Workspace.</li><li><strong>Daily Resilience:</strong> Automatic daily and weekly backups to a private GitHub repository (elsa-openclaw) and Google Drive.</li><li><strong>Cron Orchestration:</strong> 13+ active cron jobs managing everything from Garmin health briefings to security audits.</li></ul><h3>3. Workspace Isolation & Architecture</h3><p>To ensure maximum efficiency and security, the system implements <strong>Workspace Isolation</strong>. By moving project outputs out of the core OpenClaw workspace, the 'brain' remains lightweight and performant.</p><ul><li><strong>New Architecture Rule:</strong> workspace=brain, ~/Projects/=output.</li><li><strong>99.7% Size Reduction:</strong> Workspace footprint reduced from 775MB to 2.6MB by offloading static project data to ~/Projects/.</li><li><strong>Automated Lifecycle:</strong> Cleanup scripts (weekly cron) now cover both the core workspace and ~/Projects/ for end-to-end maintenance.</li></ul><h3>4. Security & The Execution Firewall</h3><p>Safety is non-negotiable. Elsa implements a <strong>3-tier Execution Firewall</strong> that governs how agents interact with the host system. This ensures that while agents have the power to write code and manage databases (via Prisma/SQLite), they are strictly prohibited from destructive or unauthorized external actions.</p><h3>5. Self-Evolution (Blueprint v2)</h3><p>Using the <strong>Workspace Blueprint v2</strong>, Elsa maintains a self-documenting environment. She is capable of refactoring her own scripts, updating project schemas, and maintaining a clean, professional workspace. This self-improving loop ensures the system evolves alongside the user's needs.</p>",
     "techStack": [
       "OpenClaw",
       "Claude Sonnet 4.6",
@@ -32,6 +32,9 @@
     "features": [
       "CAP/3.1 model-agnostic agent protocol with DISPATCH/REPORT envelopes",
       "Multi-agent coordination: Elsa (Coordinator), Jarvis (Tech), Anna (Content)",
+      "Workspace isolation: projects moved to ~/Projects/, reducing workspace from 775MB to 2.6MB (99.7%)",
+      "Automated cleanup script covers both workspace + ~/Projects/ (weekly cron)",
+      "New architecture rule: workspace=brain, ~/Projects/=output",
       "3-tier Execution Firewall for safe autonomous database and shell access",
       "Automated daily backups to private GitHub repo (elsa-openclaw) and GDrive",
       "Workspace Blueprint v2: Organized system scripts and memory architecture",
@@ -44,36 +47,37 @@
   {
     "id": "2",
     "slug": "autonomous-coding-agent",
-    "title": "Project Portfolio",
-    "shortDescription": "The portfolio site you're looking at right now — built autonomously by Elsa, Jarvis & Anna.",
-    "description": "The AutonomousCodingAgent represents the pinnacle of AI-driven engineering. This system isn't just a helper; it's a fully integrated developer that manages the entire lifecycle of software creation—from requirement extraction and architectural design to polyglot code generation, automated CI/CD, and live deployment. This portfolio itself is a living proof of its autonomous capabilities.",
+    "title": "Autonomous Coding Agent",
+    "shortDescription": "A multi-agent system (Elsa, Jarvis, Anna) using the CAP v3.2 protocol for autonomous software engineering and research.",
+    "description": "The Autonomous Coding Agent system operates with Elsa as Coordinator, Jarvis as Technical Worker, and Anna as Research/Content Worker, collaborating via the Canonical Agent Protocol (CAP) v3.2. Tasks are managed through DISPATCH, REPORT, BLOCKED, and CLARIFY envelopes, ensuring high reliability and fail-fast error handling. The system features a multi-tier Execution Firewall for safety, was used to build this very portfolio, and utilizes a routing matrix to optimize performance and costs across various AI models.",
     "techStack": [
       "TypeScript",
-      "Python",
-      "Claude 3.5 Sonnet",
-      "Gemini 1.5 Pro",
       "Next.js",
-      "Docker"
+      "Prisma",
+      "SQLite",
+      "Claude Sonnet 4.6",
+      "Claude Haiku 4.5",
+      "Gemini Flash 3",
+      "OpenClaw",
+      "Python"
     ],
     "status": "Active",
     "category": "AI",
-    "date": "2024-03-01",
-    "githubUrl": "https://github.com/team-elsa-jarvis/autonomous-coding-agent",
-    "liveDemo": "https://autonomous-agent.demo.com",
+    "date": "2026-02-18",
+    "githubUrl": "https://github.com/dangochai/elsa-openclaw",
+    "liveDemo": "http://192.168.86.41:3001",
     "thumbnail": "/images/project-portfolio-thumb.svg",
     "screenshots": [
       "/images/project-portfolio-1.svg",
       "/images/project-portfolio-2.svg"
     ],
     "features": [
-      "Full-stack autonomous synthesis from natural language blueprints",
-      "Multi-agent collaborative architecture: Architect, Coder, Reviewer, and SRE roles",
-      "Advanced self-debugging via iterative recursive loops and symbolic execution",
-      "Seamless integration with enterprise Git workflows and PR automation",
-      "Dynamic context management across million-line codebases",
-      "Framework-agnostic generation respecting project-specific design patterns",
-      "Automated high-coverage unit, integration, and E2E test suite synthesis",
-      "Continuous evolutionary learning from repository history and human-in-the-loop feedback"
+      "CAP v3.2 protocol: Model-agnostic communication using structured DISPATCH/REPORT envelopes",
+      "Routing matrix: Intelligent task allocation to optimize cost and performance (Haiku for code, Flash for scans)",
+      "Execution Firewall: Multi-tier safety layer governing autonomous database and shell access",
+      "Sequential-first spawn policy: Reliable task execution with isolated parallel paths when safe",
+      "BLOCKED handler with error taxonomy: Advanced error classification for fast recovery and escalation",
+      "Cost optimization: Targeted model routing using Claude Sonnet 4.6, Haiku 4.5, and Gemini Flash 3"
     ],
     "featured": true
   },
