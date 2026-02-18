@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { ArrowLeft, Github, ExternalLink, Calendar, CheckCircle2 } from "lucide-react";
+import { ArrowLeft, Github, ExternalLink, Calendar, CheckCircle2, Bot, Cpu, BookOpen, Rocket } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { formatDate, getStatusVariant } from "@/lib/utils";
@@ -59,6 +59,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
   }
 
   const statusVariant = getStatusVariant(project.status);
+  const isAutonomousAgent = params.slug === "autonomous-coding-agent";
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
@@ -129,6 +130,120 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           {project.description}
         </p>
       </section>
+
+      {/* ── Project Dashboard (autonomous-coding-agent only) ── */}
+      {isAutonomousAgent && (
+        <section className="mb-10" aria-labelledby="dashboard-heading">
+          <h2 id="dashboard-heading" className="text-xl font-semibold text-slate-900 dark:text-slate-100 mb-4 pb-2 border-b border-slate-200 dark:border-slate-800">
+            Project Dashboard
+          </h2>
+
+          <div className="grid gap-6 sm:grid-cols-2">
+            {/* Agent Roster */}
+            <div className="rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 p-5">
+              <div className="flex items-center gap-2 mb-4">
+                <Bot className="h-5 w-5 text-cyan-500 dark:text-cyan-400" aria-hidden="true" />
+                <h3 className="text-base font-semibold text-slate-900 dark:text-slate-100">Agent Roster</h3>
+              </div>
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-indigo-100 dark:bg-indigo-900 text-xs font-bold text-indigo-600 dark:text-indigo-300">E</span>
+                  <div>
+                    <p className="text-sm font-medium text-slate-900 dark:text-slate-100">Elsa — Coordinator</p>
+                    <p className="text-xs text-slate-500 dark:text-slate-400">claude-sonnet-4-5 · User-facing, PR review &amp; merge</p>
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-100 dark:bg-emerald-900 text-xs font-bold text-emerald-600 dark:text-emerald-300">J</span>
+                  <div>
+                    <p className="text-sm font-medium text-slate-900 dark:text-slate-100">Jarvis — Technical Worker</p>
+                    <p className="text-xs text-slate-500 dark:text-slate-400">claude-haiku-4-5 · Ephemeral · Code, git, DevOps</p>
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-pink-100 dark:bg-pink-900 text-xs font-bold text-pink-600 dark:text-pink-300">A</span>
+                  <div>
+                    <p className="text-sm font-medium text-slate-900 dark:text-slate-100">Anna — Research &amp; Content</p>
+                    <p className="text-xs text-slate-500 dark:text-slate-400">gemini-flash · Ephemeral · Docs, research, content</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            {/* Implementation Status */}
+            <div className="rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 p-5">
+              <div className="flex items-center gap-2 mb-4">
+                <Cpu className="h-5 w-5 text-cyan-500 dark:text-cyan-400" aria-hidden="true" />
+                <h3 className="text-base font-semibold text-slate-900 dark:text-slate-100">Live &amp; Working</h3>
+              </div>
+              <ul className="space-y-2">
+                {[
+                  "Portfolio site (Next.js 14 + Tailwind CSS)",
+                  "SQLite + Prisma 6.4.0 data layer",
+                  "Vitest + React Testing Library (tests passing)",
+                  "PR workflow: branch → review → merge",
+                  "PR #1 merged: Futuristic design update",
+                  "OpenClaw heartbeat monitoring & cron jobs",
+                  "Ephemeral session management (spawn & delete)",
+                ].map((item, i) => (
+                  <li key={i} className="flex items-start gap-2">
+                    <CheckCircle2 className="h-4 w-4 text-emerald-500 dark:text-emerald-400 shrink-0 mt-0.5" aria-hidden="true" />
+                    <span className="text-xs text-slate-600 dark:text-slate-400">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* V2 Roadmap */}
+            <div className="rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 p-5">
+              <div className="flex items-center gap-2 mb-4">
+                <Rocket className="h-5 w-5 text-cyan-500 dark:text-cyan-400" aria-hidden="true" />
+                <h3 className="text-base font-semibold text-slate-900 dark:text-slate-100">V2 Roadmap</h3>
+              </div>
+              <ol className="space-y-3">
+                {[
+                  { phase: "Phase 1", label: "CI/CD Pipeline", desc: "GitHub Actions, automated test gates" },
+                  { phase: "Phase 2", label: "Content & Assets", desc: "Real screenshots, project media, Notion sync" },
+                  { phase: "Phase 3", label: "Interactive Features", desc: "Live status feed, agent activity log" },
+                ].map(({ phase, label, desc }, i) => (
+                  <li key={i} className="flex items-start gap-3">
+                    <Badge variant="tech" className="shrink-0 text-xs px-2 py-0.5">{phase}</Badge>
+                    <div>
+                      <p className="text-sm font-medium text-slate-900 dark:text-slate-100">{label}</p>
+                      <p className="text-xs text-slate-500 dark:text-slate-400">{desc}</p>
+                    </div>
+                  </li>
+                ))}
+              </ol>
+            </div>
+
+            {/* Architecture Note */}
+            <div className="rounded-xl border border-indigo-200 dark:border-indigo-800 bg-indigo-50 dark:bg-indigo-950 p-5">
+              <div className="flex items-center gap-2 mb-3">
+                <BookOpen className="h-5 w-5 text-indigo-500 dark:text-indigo-400" aria-hidden="true" />
+                <h3 className="text-base font-semibold text-slate-900 dark:text-slate-100">Architecture</h3>
+              </div>
+              <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed mb-3">
+                Based on Anthropic&apos;s{" "}
+                <a
+                  href="https://github.com/anthropics/claude-quickstarts/tree/main/autonomous-coding"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-indigo-600 dark:text-indigo-400 underline underline-offset-2 hover:text-indigo-800 dark:hover:text-indigo-200"
+                >
+                  claude-quickstarts autonomous-coding pattern
+                </a>
+                . The original two-agent model (Initializer + Coding Agent) is extended into a 3-agent system with role separation: coordination, implementation, and research/content.
+              </p>
+              <div className="flex flex-wrap gap-1.5">
+                <Badge variant="tech" className="text-xs">OpenClaw Gateway</Badge>
+                <Badge variant="tech" className="text-xs">Ephemeral Sessions</Badge>
+                <Badge variant="tech" className="text-xs">PR Workflow</Badge>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* ── Key Features Section ── */}
       <section className="mb-10" aria-labelledby="features-heading">
