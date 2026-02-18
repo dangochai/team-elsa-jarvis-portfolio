@@ -5,17 +5,37 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import ProjectCard from "@/components/ProjectCard";
+import { prisma } from "@/lib/prisma";
 import type { Project, TeamMember } from "@/types";
 
-import projectsData from "@/data/projects.json";
-import teamData from "@/data/team.json";
+async function getHomePageData() {
+  const [projects, team] = await Promise.all([
+    prisma.project.findMany({
+      where: { featured: true },
+      take: 3,
+    }),
+    prisma.teamMember.findMany(),
+  ]);
 
-const projects = projectsData as Project[];
-const team = teamData as TeamMember[];
+  // Map Prisma models to the UI-friendly Project/TeamMember types if necessary
+  // (e.g., parsing techStack string back to array)
+  const mappedProjects: Project[] = projects.map(p => ({
+    ...p,
+    techStack: p.techStack.split(','),
+    screenshots: JSON.parse(p.screenshots),
+    features: JSON.parse(p.features),
+  } as unknown as Project));
 
-const featuredProjects = projects.filter((p) => p.featured).slice(0, 3);
+  const mappedTeam: TeamMember[] = team.map(m => ({
+    ...m,
+  } as unknown as TeamMember));
 
-export default function HomePage() {
+  return { featuredProjects: mappedProjects, team: mappedTeam };
+}
+
+export default async function HomePage() {
+  const { featuredProjects, team } = await getHomePageData();
+
   return (
     <div className="flex flex-col">
       {/* ── Hero Section ── */}

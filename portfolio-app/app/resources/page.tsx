@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { ExternalLink, Bot, Server, BookOpen } from "lucide-react";
 import type { Resource } from "@/types";
-import resourcesData from "@/data/resources.json";
+import { prisma } from "@/lib/prisma";
 
 export const metadata: Metadata = {
   title: "Resources",
@@ -12,8 +11,6 @@ export const metadata: Metadata = {
     description: "Curated tools, libraries, AI models, and learning resources from Team Elsa & Jarvis.",
   },
 };
-
-const resources = resourcesData as Resource[];
 
 const CATEGORY_CONFIG: Record<string, { icon: React.ElementType; description: string }> = {
   "AI Models": {
@@ -41,7 +38,13 @@ function groupByCategory(resources: Resource[]) {
   }, {});
 }
 
-export default function ResourcesPage() {
+async function getResources() {
+  const resources = await prisma.resource.findMany();
+  return resources.map(r => ({ ...r } as unknown as Resource));
+}
+
+export default async function ResourcesPage() {
+  const resources = await getResources();
   const groupedResources = groupByCategory(resources);
   const categories = Object.keys(groupedResources);
 

@@ -7,22 +7,38 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { formatDate, getStatusVariant } from "@/lib/utils";
 import type { Project } from "@/types";
-import projectsData from "@/data/projects.json";
-
-const projects = projectsData as Project[];
+import { prisma } from "@/lib/prisma";
 
 interface ProjectPageProps {
   params: { slug: string };
 }
 
+async function getProject(slug: string) {
+  const project = await prisma.project.findUnique({
+    where: { slug },
+  });
+
+  if (!project) return null;
+
+  return {
+    ...project,
+    techStack: project.techStack.split(','),
+    screenshots: JSON.parse(project.screenshots),
+    features: JSON.parse(project.features),
+  } as unknown as Project;
+}
+
 export async function generateStaticParams() {
+  const projects = await prisma.project.findMany({
+    select: { slug: true }
+  });
   return projects.map((project) => ({
     slug: project.slug,
   }));
 }
 
 export async function generateMetadata({ params }: ProjectPageProps): Promise<Metadata> {
-  const project = projects.find((p) => p.slug === params.slug);
+  const project = await getProject(params.slug);
   if (!project) return {};
 
   return {
@@ -35,8 +51,8 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
   };
 }
 
-export default function ProjectPage({ params }: ProjectPageProps) {
-  const project = projects.find((p) => p.slug === params.slug);
+export default async function ProjectPage({ params }: ProjectPageProps) {
+  const project = await getProject(params.slug);
 
   if (!project) {
     notFound();
@@ -81,7 +97,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
         <div className="flex flex-wrap gap-3 mt-6">
           <Button asChild variant="default" size="lg">
             <a
-              href={project.githubUrl}
+              href={project.githubUrl || '#'}
               target="_blank"
               rel="noopener noreferrer"
             >
