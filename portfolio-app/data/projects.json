@@ -2,15 +2,15 @@
   {
     "id": "1",
     "slug": "elsa-performance",
-    "title": "ElsaPerformance",
-    "shortDescription": "Enterprise-grade AI observability and real-time system optimization platform.",
-    "description": "ElsaPerformance is a next-generation observability suite engineered by Team Elsa & Jarvis. It integrates deep neural monitoring to preemptively identify system regressions, correlate cross-stack metrics, and autonomously execute infrastructure scaling. Built for high-frequency trading environments and massive-scale web architectures where microsecond latency is the standard.",
-    "techStack": ["Rust", "Python", "FastAPI", "ClickHouse", "Redis", "Kubernetes"],
+    "title": "ElsaPerformance — OpenClaw Optimization",
+    "shortDescription": "OpenClaw AI gateway performance monitoring, configuration management, and multi-agent orchestration optimization platform.",
+    "description": "ElsaPerformance is the meta-project tracking the health, optimization, and evolution of Elsa's own OpenClaw runtime. It covers gateway configuration (openclaw.json), session context management with 100k token threshold alerts, multi-agent coordination protocols, and integration health checks across Home Assistant, Garmin, Google Workspace, and Notion. The project produced the Workspace Blueprint v2 — standardizing directory structure, cron scheduling, security hardening with FileVault and macOS Firewall, and the PROTOCOL_AGENTS.md multi-agent operation standard. Elsa runs daily health checks, manages API fallback strategies between Anthropic and Google Gemini, and maintains comprehensive performance logs.",
+    "techStack": ["OpenClaw", "Claude API", "Node.js", "Shell Script", "Home Assistant", "Garmin API", "Google Workspace API", "Notion API"],
     "status": "Active",
     "category": "AI",
-    "date": "2024-01-15",
-    "githubUrl": "https://github.com/team-elsa-jarvis/elsa-performance",
-    "liveDemo": "https://elsa-performance.demo.com",
+    "date": "2026-02-15",
+    "githubUrl": "",
+    "liveDemo": "",
     "thumbnail": "/images/elsa-performance-thumb.svg",
     "screenshots": [
       "/images/elsa-performance-1.svg",
@@ -18,14 +18,12 @@
       "/images/elsa-performance-3.svg"
     ],
     "features": [
-      "Real-time neural telemetry and predictive load balancing",
-      "Self-healing infrastructure orchestration with 99.999% reliability targets",
-      "Automated kernel-level performance tuning and bottleneck analysis",
-      "Hyper-integrated support for hybrid-cloud deployments (AWS, GCP, Azure, On-prem)",
-      "Zero-latency distributed tracing across mesh networks",
-      "AI-driven incident remediation using specialized LLM agents",
-      "Unified global state monitoring with sub-second propagation",
-      "Dynamic dashboard generation based on real-time operational context"
+      "OpenClaw gateway config management with hot-reload and health checks",
+      "Multi-agent protocol: Coordinator (Elsa) + ephemeral workers (Jarvis, Anna) with fail-fast rules",
+      "Context window monitoring: 60k/80k/100k threshold alerts and pre-reset checklist",
+      "API fallback strategy: Anthropic → Google Gemini seamless model switching",
+      "Weekly security audit, FileVault encryption, macOS Firewall enforcement",
+      "Workspace Blueprint v2: standardized directory structure across all projects"
     ],
     "featured": true
   },
@@ -60,106 +58,56 @@
   },
   {
     "id": "3",
-    "slug": "nexus-dashboard",
-    "title": "Nexus OS",
-    "shortDescription": "The central nervous system for multi-agent AI ecosystems and decentralized deployments.",
-    "description": "Nexus OS is a unified command-and-control interface designed for the age of agentic workflows. It provides a real-time visualization of agent swarms, automated deployment health, and collaborative resource allocation. Nexus bridges the gap between raw AI processing and human-centric operational intelligence.",
-    "techStack": ["Next.js", "TypeScript", "Tailwind CSS", "GraphQL", "Node.js", "WebSockets"],
+    "slug": "axon-ai",
+    "title": "AxonAI — Axon AI Model™",
+    "shortDescription": "A strategic AI transformation framework embedding autonomous agents into the Axon Active Agile development cycle.",
+    "description": "AxonAI redefines how offshore development teams operate by embedding AI tools—GitHub Copilot, Cursor, and Claude Code—directly into Axon Active's proprietary Scrum-based Axon Model™. The project produced the Axon AI Model™, a layered framework that reshapes developer roles into AI Pilots, Scrum Masters into AI-Enhanced Facilitators, and Product Owners into Value Engineers, with governance cycles spanning PO, EAT, and EMS levels. Research deliverables include a sales pitch for prospective clients, a 1000+ word strategic proposal for existing customers, and an internal staff guidebook featuring the 3-Prompt Rule and a Junior Gap apprenticeship solution. The enterprise governance layer addresses Private LLM policy, IP protection, and Copilot Enterprise rollout strategy across dedicated offshore teams.",
+    "techStack": ["Python", "Claude API", "Notion API", "Google Drive API", "Anthropic SDK", "Markdown"],
     "status": "Active",
-    "category": "Web",
-    "date": "2024-05-20",
-    "githubUrl": "https://github.com/team-elsa-jarvis/nexus-dashboard",
-    "liveDemo": "https://nexus.demo.com",
-    "thumbnail": "/images/nexus-thumb.svg",
+    "category": "AI",
+    "date": "2026-02-15",
+    "githubUrl": "",
+    "liveDemo": "",
+    "thumbnail": "/images/axon-ai-thumb.svg",
     "screenshots": [
-      "/images/nexus-1.svg",
-      "/images/nexus-2.svg"
+      "/images/axon-ai-1.svg",
+      "/images/axon-ai-2.svg"
     ],
     "features": [
-      "Real-time swarm visualization and agent telemetry tracking",
-      "Intelligent deployment pipeline automation with AI-risk assessment",
-      "Unified cross-platform resource management and cost optimization",
-      "Enterprise-grade security with fine-grained agentic permissioning",
-      "Context-aware notification engine with noise suppression and urgency detection",
-      "Customizable modular plugin architecture for bespoke operational needs"
+      "Axon AI Model™ framework defining role shifts for all Scrum personas (Developer → AI Pilot, SM → AI-Enhanced Facilitator, PO → Value Engineer)",
+      "Agentic SDLC workflow mapping GitHub Copilot, Cursor, and Claude Code to each sprint phase",
+      "Sales pitch and 1000+ word strategic proposal documents published and synchronized to Notion",
+      "Internal staff guidebook: AI-First Onboarding, Pair Programming 2.0, and the 3-Prompt Rule",
+      "Junior Gap solution: AI-assisted apprenticeship model bridging skill gaps for junior developers",
+      "Enterprise governance layer: Private LLM policy, IP protection standards, and Copilot Enterprise adoption guidance"
     ],
     "featured": true
   },
   {
     "id": "4",
-    "slug": "codesmith-cli",
-    "title": "CodeSmith CLI",
-    "shortDescription": "High-velocity scaffolding and AI-assisted automation for technical architects.",
-    "description": "CodeSmith CLI is the industrial-strength productivity tool for modern developers. Utilizing advanced code-intelligence models, it automates the creation of complex boilerplate, scaffolding, and project configurations. It's designed to minimize 'time-to-hello-world' while maintaining absolute structural integrity.",
-    "techStack": ["Go", "TypeScript", "Commander.js", "Handlebars", "OpenAI / Anthropic"],
+    "slug": "devday-2026",
+    "title": "DevDay 2026 — AI x Human",
+    "shortDescription": "Event planning and content management system for Da Nang's largest annual tech conference, themed 'AI x Human: The Future of Co-Intelligence.'",
+    "description": "DevDay is a non-profit annual tech conference co-organized by Axon Active and Duy Tan University in Da Nang, and the 2026 edition on April 18 at Duy Tan University targets 3000+ attendees including students, IT professionals, business leaders, and investors. Elsa serves as the AI management assistant orchestrating agenda planning, Notion page synchronization, speaker registration tracking with a March 5 deadline, and workshop and panel session design across six AI topic tracks. The conference theme 'AI x Human: The Future of Co-Intelligence' centers on the co-existence of human creativity and machine intelligence, featuring C-level panel discussions and 14 technical workshop slots. All event data, partner information, and task workflows are managed through a centralized Elsa-maintained Notion workspace.",
+    "techStack": ["Notion API", "Google Calendar API", "Google Drive API", "OpenClaw", "Claude API"],
     "status": "Active",
-    "category": "Tools",
-    "date": "2024-02-10",
-    "githubUrl": "https://github.com/team-elsa-jarvis/codesmith-cli",
-    "thumbnail": "/images/codesmith-thumb.svg",
+    "category": "Web",
+    "date": "2026-02-15",
+    "githubUrl": "",
+    "liveDemo": "",
+    "thumbnail": "/images/devday-2026-thumb.svg",
     "screenshots": [
-      "/images/codesmith-1.svg"
+      "/images/devday-2026-1.svg",
+      "/images/devday-2026-2.svg"
     ],
     "features": [
-      "Curated library of 100+ architecture-first project templates",
-      "AI-driven smart scaffolding that adapts to existing directory structures",
-      "Ultra-low latency interactive CLI with advanced predictive prompts",
-      "Automated security auditing and linting during initial generation",
-      "Cross-platform compatibility with zero-config setup",
-      "Extensible DSL for defining custom organizational standards"
+      "Automated agenda generation and real-time Notion page synchronization for the April 18, 2026 event",
+      "Call for Speakers tracking with deadline management (March 5, 2026) and applicant pipeline",
+      "Panel Discussion design and facilitation planning for 2 C-level executive sessions",
+      "Workshop review criteria management for 14 technical slots across 6 AI topic tracks",
+      "Event information hub: partner data (AgilityIO, Enosta, NTT Data), timeline, and venue logistics",
+      "Elsa-managed task board in Notion To-Do List database with status tracking and automated reminders"
     ],
-    "featured": false
-  },
-  {
-    "id": "5",
-    "slug": "vector-search-engine",
-    "title": "NeuralSearch Engine",
-    "shortDescription": "Sub-millisecond semantic retrieval system for multi-modal knowledge bases.",
-    "description": "NeuralSearch Engine is a performance-optimized vector search platform designed for extreme-scale AI applications. It leverages hardware-accelerated embeddings and distributed indexing to enable contextual search across petabytes of data, moving beyond keyword matching to true conceptual understanding.",
-    "techStack": ["Python", "C++", "FastAPI", "Pinecone", "Milvus", "Docker"],
-    "status": "Active",
-    "category": "AI",
-    "date": "2024-04-05",
-    "githubUrl": "https://github.com/team-elsa-jarvis/vector-search-engine",
-    "liveDemo": "https://vector-search.demo.com",
-    "thumbnail": "/images/vector-search-thumb.svg",
-    "screenshots": [
-      "/images/vector-search-1.svg",
-      "/images/vector-search-2.svg"
-    ],
-    "features": [
-      "Distributed vector indexing with sub-50ms p99 latency",
-      "Multi-modal embedding support (Text, Image, Audio, Structured Data)",
-      "Dynamic index re-balancing for high-throughput write operations",
-      "Hyper-efficient multi-tenant architecture for SaaS integration",
-      "Advanced filtering with hybrid semantic-attribute search algorithms",
-      "Native integration with leading LLM orchestration frameworks"
-    ],
-    "featured": false
-  },
-  {
-    "id": "6",
-    "slug": "devops-autopilot",
-    "title": "SRE Autopilot",
-    "shortDescription": "Autonomous Site Reliability Engineering for complex cloud-native ecosystems.",
-    "description": "SRE Autopilot automates the operational burden of managing complex cloud environments. By leveraging reinforcement learning and anomaly detection, it proactively manages CI/CD health, scales infrastructure, and performs autonomous incident remediation before human operators are even notified.",
-    "techStack": ["Go", "Terraform", "Kubernetes", "GitHub Actions", "Prometheus", "PyTorch"],
-    "status": "Beta",
-    "category": "Tools",
-    "date": "2024-06-15",
-    "githubUrl": "https://github.com/team-elsa-jarvis/devops-autopilot",
-    "thumbnail": "/images/devops-autopilot-thumb.svg",
-    "screenshots": [
-      "/images/devops-autopilot-1.svg"
-    ],
-    "features": [
-      "AI-driven CI/CD optimization and autonomous failure recovery",
-      "Predictive infrastructure provisioning based on historic traffic patterns",
-      "Self-configuring zero-downtime deployment strategies",
-      "Real-time incident response with automated post-mortem generation",
-      "Intelligent cluster health management and automated cost containment",
-      "Continuous security posture enforcement and compliance automation"
-    ],
-    "featured": false
+    "featured": true
   }
 ]
