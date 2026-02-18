@@ -116,7 +116,7 @@
     "slug": "devday-2026",
     "title": "DevDay 2026",
     "shortDescription": "Event planning and content management system for Da Nang's largest annual tech conference, themed 'AI x Human: The Future of Co-Intelligence.'",
-    "description": "DevDay is a non-profit annual tech conference co-organized by Axon Active and Duy Tan University in Da Nang, and the 2026 edition on April 18 at Duy Tan University targets 3000+ attendees including students, IT professionals, business leaders, and investors. Elsa serves as the AI management assistant orchestrating agenda planning, Notion page synchronization, speaker registration tracking with a March 5 deadline, and workshop and panel session design across six AI topic tracks. The conference theme 'AI x Human: The Future of Co-Intelligence' centers on the co-existence of human creativity and machine intelligence, featuring C-level panel discussions and 14 technical workshop slots. All event data, partner information, and task workflows are managed through a centralized Elsa-maintained Notion workspace.",
+    "description": "DevDay Da Nang 2026 is Vietnam's premier non-profit IT festival, gathering over 3,000 tech enthusiasts to explore the 'AI x Human' paradigm. Hosted at Duy Tan University, the event features 40+ global speakers across specialized tracks, showcasing the future of co-intelligence, automation workflows, and AI-driven innovation.",
     "techStack": [
       "Notion API",
       "Google Calendar API",
@@ -135,12 +135,11 @@
       "/images/devday-2026-2.svg"
     ],
     "features": [
-      "Automated agenda generation and real-time Notion page synchronization for the April 18, 2026 event",
-      "Call for Speakers tracking with deadline management (March 5, 2026) and applicant pipeline",
-      "Panel Discussion design and facilitation planning for 2 C-level executive sessions",
-      "Workshop review criteria management for 14 technical slots across 6 AI topic tracks",
-      "Event information hub: partner data (AgilityIO, Enosta, NTT Data), timeline, and venue logistics",
-      "Elsa-managed task board in Notion To-Do List database with status tracking and automated reminders"
+      "Theme: AI x Human: Redefining collaboration in the age of intelligence.",
+      "Attendance: 3,000+ developers, entrepreneurs, and students.",
+      "Tracks: 6 specialized AI tracks including Autonomous Agents and AI Ethics.",
+      "Networking: Exclusive VIP lounge and industry-leading career fair.",
+      "Community: Largest non-profit tech gathering in Central Vietnam."
     ],
     "featured": true
   }
